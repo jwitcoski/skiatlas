@@ -1,460 +1,511 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" styleCategories="AllStyleCategories" maxScale="0" labelsEnabled="1" simplifyDrawingTol="1" simplifyLocal="1" readOnly="0" simplifyAlgorithm="0" version="3.20.3-Odense" minScale="100000000" simplifyDrawingHints="0">
+<qgis simplifyMaxScale="1" symbologyReferenceScale="-1" maxScale="0" simplifyDrawingHints="0" labelsEnabled="1" hasScaleBasedVisibilityFlag="0" minScale="100000000" simplifyAlgorithm="0" version="3.36.0-Maidenhead" simplifyLocal="1" styleCategories="AllStyleCategories" readOnly="0" simplifyDrawingTol="1">
   <flags>
     <Identifiable>1</Identifiable>
     <Removable>1</Removable>
     <Searchable>1</Searchable>
     <Private>0</Private>
   </flags>
-  <temporal startExpression="" enabled="0" fixedDuration="0" accumulate="0" mode="0" durationField="" startField="" endField="" durationUnit="min" endExpression="">
+  <temporal mode="0" endField="" startExpression="" durationField="" endExpression="" durationUnit="min" limitMode="0" accumulate="0" enabled="0" startField="" fixedDuration="0">
     <fixedRange>
       <start></start>
       <end></end>
     </fixedRange>
   </temporal>
-  <renderer-v2 forceraster="0" enableorderby="0" symbollevels="0" type="RuleRenderer">
+  <elevation binding="Centroid" zoffset="0" symbology="Line" respectLayerSymbol="1" extrusionEnabled="0" clamping="Terrain" type="IndividualFeatures" zscale="1" extrusion="0" showMarkerSymbolInSurfacePlots="0">
+    <data-defined-properties>
+      <Option type="Map">
+        <Option value="" name="name" type="QString"/>
+        <Option name="properties"/>
+        <Option value="collection" name="type" type="QString"/>
+      </Option>
+    </data-defined-properties>
+    <profileLineSymbol>
+      <symbol name="" type="line" frame_rate="10" alpha="1" clip_to_extent="1" force_rhr="0" is_animated="0">
+        <data_defined_properties>
+          <Option type="Map">
+            <Option value="" name="name" type="QString"/>
+            <Option name="properties"/>
+            <Option value="collection" name="type" type="QString"/>
+          </Option>
+        </data_defined_properties>
+        <layer id="{9c720253-cf8b-404d-b96f-ef11ab83309a}" locked="0" class="SimpleLine" pass="0" enabled="1">
+          <Option type="Map">
+            <Option value="0" name="align_dash_pattern" type="QString"/>
+            <Option value="square" name="capstyle" type="QString"/>
+            <Option value="5;2" name="customdash" type="QString"/>
+            <Option value="3x:0,0,0,0,0,0" name="customdash_map_unit_scale" type="QString"/>
+            <Option value="MM" name="customdash_unit" type="QString"/>
+            <Option value="0" name="dash_pattern_offset" type="QString"/>
+            <Option value="3x:0,0,0,0,0,0" name="dash_pattern_offset_map_unit_scale" type="QString"/>
+            <Option value="MM" name="dash_pattern_offset_unit" type="QString"/>
+            <Option value="0" name="draw_inside_polygon" type="QString"/>
+            <Option value="bevel" name="joinstyle" type="QString"/>
+            <Option value="231,113,72,255,rgb:0.90588235294117647,0.44313725490196076,0.28235294117647058,1" name="line_color" type="QString"/>
+            <Option value="solid" name="line_style" type="QString"/>
+            <Option value="0.6" name="line_width" type="QString"/>
+            <Option value="MM" name="line_width_unit" type="QString"/>
+            <Option value="0" name="offset" type="QString"/>
+            <Option value="3x:0,0,0,0,0,0" name="offset_map_unit_scale" type="QString"/>
+            <Option value="MM" name="offset_unit" type="QString"/>
+            <Option value="0" name="ring_filter" type="QString"/>
+            <Option value="0" name="trim_distance_end" type="QString"/>
+            <Option value="3x:0,0,0,0,0,0" name="trim_distance_end_map_unit_scale" type="QString"/>
+            <Option value="MM" name="trim_distance_end_unit" type="QString"/>
+            <Option value="0" name="trim_distance_start" type="QString"/>
+            <Option value="3x:0,0,0,0,0,0" name="trim_distance_start_map_unit_scale" type="QString"/>
+            <Option value="MM" name="trim_distance_start_unit" type="QString"/>
+            <Option value="0" name="tweak_dash_pattern_on_corners" type="QString"/>
+            <Option value="0" name="use_custom_dash" type="QString"/>
+            <Option value="3x:0,0,0,0,0,0" name="width_map_unit_scale" type="QString"/>
+          </Option>
+          <data_defined_properties>
+            <Option type="Map">
+              <Option value="" name="name" type="QString"/>
+              <Option name="properties"/>
+              <Option value="collection" name="type" type="QString"/>
+            </Option>
+          </data_defined_properties>
+        </layer>
+      </symbol>
+    </profileLineSymbol>
+    <profileFillSymbol>
+      <symbol name="" type="fill" frame_rate="10" alpha="1" clip_to_extent="1" force_rhr="0" is_animated="0">
+        <data_defined_properties>
+          <Option type="Map">
+            <Option value="" name="name" type="QString"/>
+            <Option name="properties"/>
+            <Option value="collection" name="type" type="QString"/>
+          </Option>
+        </data_defined_properties>
+        <layer id="{20adc707-9889-4f23-876c-4acd3f413f72}" locked="0" class="SimpleFill" pass="0" enabled="1">
+          <Option type="Map">
+            <Option value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale" type="QString"/>
+            <Option value="231,113,72,255,rgb:0.90588235294117647,0.44313725490196076,0.28235294117647058,1" name="color" type="QString"/>
+            <Option value="bevel" name="joinstyle" type="QString"/>
+            <Option value="0,0" name="offset" type="QString"/>
+            <Option value="3x:0,0,0,0,0,0" name="offset_map_unit_scale" type="QString"/>
+            <Option value="MM" name="offset_unit" type="QString"/>
+            <Option value="165,81,51,255,rgb:0.6470588235294118,0.31651789120317386,0.20167849240863661,1" name="outline_color" type="QString"/>
+            <Option value="solid" name="outline_style" type="QString"/>
+            <Option value="0.2" name="outline_width" type="QString"/>
+            <Option value="MM" name="outline_width_unit" type="QString"/>
+            <Option value="solid" name="style" type="QString"/>
+          </Option>
+          <data_defined_properties>
+            <Option type="Map">
+              <Option value="" name="name" type="QString"/>
+              <Option name="properties"/>
+              <Option value="collection" name="type" type="QString"/>
+            </Option>
+          </data_defined_properties>
+        </layer>
+      </symbol>
+    </profileFillSymbol>
+    <profileMarkerSymbol>
+      <symbol name="" type="marker" frame_rate="10" alpha="1" clip_to_extent="1" force_rhr="0" is_animated="0">
+        <data_defined_properties>
+          <Option type="Map">
+            <Option value="" name="name" type="QString"/>
+            <Option name="properties"/>
+            <Option value="collection" name="type" type="QString"/>
+          </Option>
+        </data_defined_properties>
+        <layer id="{129b5b73-cb93-4a15-ac80-e647d333b290}" locked="0" class="SimpleMarker" pass="0" enabled="1">
+          <Option type="Map">
+            <Option value="0" name="angle" type="QString"/>
+            <Option value="square" name="cap_style" type="QString"/>
+            <Option value="231,113,72,255,rgb:0.90588235294117647,0.44313725490196076,0.28235294117647058,1" name="color" type="QString"/>
+            <Option value="1" name="horizontal_anchor_point" type="QString"/>
+            <Option value="bevel" name="joinstyle" type="QString"/>
+            <Option value="diamond" name="name" type="QString"/>
+            <Option value="0,0" name="offset" type="QString"/>
+            <Option value="3x:0,0,0,0,0,0" name="offset_map_unit_scale" type="QString"/>
+            <Option value="MM" name="offset_unit" type="QString"/>
+            <Option value="165,81,51,255,rgb:0.6470588235294118,0.31651789120317386,0.20167849240863661,1" name="outline_color" type="QString"/>
+            <Option value="solid" name="outline_style" type="QString"/>
+            <Option value="0.2" name="outline_width" type="QString"/>
+            <Option value="3x:0,0,0,0,0,0" name="outline_width_map_unit_scale" type="QString"/>
+            <Option value="MM" name="outline_width_unit" type="QString"/>
+            <Option value="diameter" name="scale_method" type="QString"/>
+            <Option value="3" name="size" type="QString"/>
+            <Option value="3x:0,0,0,0,0,0" name="size_map_unit_scale" type="QString"/>
+            <Option value="MM" name="size_unit" type="QString"/>
+            <Option value="1" name="vertical_anchor_point" type="QString"/>
+          </Option>
+          <data_defined_properties>
+            <Option type="Map">
+              <Option value="" name="name" type="QString"/>
+              <Option name="properties"/>
+              <Option value="collection" name="type" type="QString"/>
+            </Option>
+          </data_defined_properties>
+        </layer>
+      </symbol>
+    </profileMarkerSymbol>
+  </elevation>
+  <renderer-v2 type="RuleRenderer" symbollevels="0" referencescale="-1" enableorderby="0" forceraster="0">
     <rules key="{a1454559-1aa4-430a-8a6d-b36aa7fadc3e}">
-      <rule key="{5876702d-a504-4426-99f1-66fd1c8e7265}" label="Tree" symbol="0" filter=" &quot;natural&quot; = 'tree' "/>
-      <rule key="{159fb0e8-134c-44f1-9212-b4d5e577f2dd}" label="Peak" symbol="1" filter=" &quot;natural&quot; = 'peak' "/>
-      <rule key="{724aeb2a-d466-436a-b00d-6a7fa8b03749}" label="pylon" symbol="2" filter=" &quot;aerialway&quot; = 'pylon' " checkstate="0"/>
-      <rule key="{5a2ac86f-7527-47f6-b03f-fc32e4896801}" symbol="3" filter="ELSE" checkstate="0"/>
+      <rule filter=" &quot;natural&quot; = 'tree' " label="Tree" key="{5876702d-a504-4426-99f1-66fd1c8e7265}" symbol="0"/>
+      <rule filter=" &quot;natural&quot; = 'peak' " label="Peak" key="{159fb0e8-134c-44f1-9212-b4d5e577f2dd}" symbol="1"/>
+      <rule checkstate="0" filter=" &quot;aerialway&quot; = 'pylon' " label="pylon" key="{724aeb2a-d466-436a-b00d-6a7fa8b03749}" symbol="2"/>
+      <rule checkstate="0" filter="ELSE" key="{5a2ac86f-7527-47f6-b03f-fc32e4896801}" symbol="3"/>
     </rules>
     <symbols>
-      <symbol clip_to_extent="1" name="0" alpha="0.5" force_rhr="0" type="marker">
+      <symbol name="0" type="marker" frame_rate="10" alpha="0.5" clip_to_extent="1" force_rhr="0" is_animated="0">
         <data_defined_properties>
           <Option type="Map">
-            <Option name="name" value="" type="QString"/>
+            <Option value="" name="name" type="QString"/>
             <Option name="properties"/>
-            <Option name="type" value="collection" type="QString"/>
+            <Option value="collection" name="type" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
+        <layer id="{ffcabe52-3b76-41a3-967d-2975a703e3a9}" locked="0" class="SimpleMarker" pass="0" enabled="1">
           <Option type="Map">
-            <Option name="angle" value="0" type="QString"/>
-            <Option name="cap_style" value="square" type="QString"/>
-            <Option name="color" value="84,176,74,255" type="QString"/>
-            <Option name="horizontal_anchor_point" value="1" type="QString"/>
-            <Option name="joinstyle" value="bevel" type="QString"/>
-            <Option name="name" value="triangle" type="QString"/>
-            <Option name="offset" value="0,0" type="QString"/>
-            <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
-            <Option name="offset_unit" value="MM" type="QString"/>
-            <Option name="outline_color" value="61,128,53,255" type="QString"/>
-            <Option name="outline_style" value="solid" type="QString"/>
-            <Option name="outline_width" value="0.4" type="QString"/>
-            <Option name="outline_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
-            <Option name="outline_width_unit" value="MM" type="QString"/>
-            <Option name="scale_method" value="diameter" type="QString"/>
-            <Option name="size" value="1.5" type="QString"/>
-            <Option name="size_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
-            <Option name="size_unit" value="MM" type="QString"/>
-            <Option name="vertical_anchor_point" value="1" type="QString"/>
+            <Option value="0" name="angle" type="QString"/>
+            <Option value="square" name="cap_style" type="QString"/>
+            <Option value="111,176,104,255,hsv:0.31666666666666665,0.40784313725490196,0.69019607843137254,1" name="color" type="QString"/>
+            <Option value="1" name="horizontal_anchor_point" type="QString"/>
+            <Option value="bevel" name="joinstyle" type="QString"/>
+            <Option value="triangle" name="name" type="QString"/>
+            <Option value="0,0" name="offset" type="QString"/>
+            <Option value="3x:0,0,0,0,0,0" name="offset_map_unit_scale" type="QString"/>
+            <Option value="MM" name="offset_unit" type="QString"/>
+            <Option value="61,128,53,255,rgb:0.23921568627450981,0.50196078431372548,0.20784313725490197,1" name="outline_color" type="QString"/>
+            <Option value="solid" name="outline_style" type="QString"/>
+            <Option value="0.4" name="outline_width" type="QString"/>
+            <Option value="3x:0,0,0,0,0,0" name="outline_width_map_unit_scale" type="QString"/>
+            <Option value="MM" name="outline_width_unit" type="QString"/>
+            <Option value="diameter" name="scale_method" type="QString"/>
+            <Option value="15" name="size" type="QString"/>
+            <Option value="3x:0,0,0,0,0,0" name="size_map_unit_scale" type="QString"/>
+            <Option value="MapUnit" name="size_unit" type="QString"/>
+            <Option value="1" name="vertical_anchor_point" type="QString"/>
           </Option>
-          <prop k="angle" v="0"/>
-          <prop k="cap_style" v="square"/>
-          <prop k="color" v="84,176,74,255"/>
-          <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="joinstyle" v="bevel"/>
-          <prop k="name" v="triangle"/>
-          <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="61,128,53,255"/>
-          <prop k="outline_style" v="solid"/>
-          <prop k="outline_width" v="0.4"/>
-          <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="outline_width_unit" v="MM"/>
-          <prop k="scale_method" v="diameter"/>
-          <prop k="size" v="1.5"/>
-          <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
-          <prop k="vertical_anchor_point" v="1"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option name="name" value="" type="QString"/>
+              <Option value="" name="name" type="QString"/>
               <Option name="properties"/>
-              <Option name="type" value="collection" type="QString"/>
+              <Option value="collection" name="type" type="QString"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" name="1" alpha="1" force_rhr="0" type="marker">
+      <symbol name="1" type="marker" frame_rate="10" alpha="1" clip_to_extent="1" force_rhr="0" is_animated="0">
         <data_defined_properties>
           <Option type="Map">
-            <Option name="name" value="" type="QString"/>
+            <Option value="" name="name" type="QString"/>
             <Option name="properties"/>
-            <Option name="type" value="collection" type="QString"/>
+            <Option value="collection" name="type" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
+        <layer id="{438b071a-1718-43e6-a7e2-ab18b01c0e6c}" locked="0" class="SimpleMarker" pass="0" enabled="1">
           <Option type="Map">
-            <Option name="angle" value="0" type="QString"/>
-            <Option name="cap_style" value="square" type="QString"/>
-            <Option name="color" value="196,60,57,255" type="QString"/>
-            <Option name="horizontal_anchor_point" value="1" type="QString"/>
-            <Option name="joinstyle" value="bevel" type="QString"/>
-            <Option name="name" value="cross_fill" type="QString"/>
-            <Option name="offset" value="0,0" type="QString"/>
-            <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
-            <Option name="offset_unit" value="MM" type="QString"/>
-            <Option name="outline_color" value="35,35,35,255" type="QString"/>
-            <Option name="outline_style" value="solid" type="QString"/>
-            <Option name="outline_width" value="0" type="QString"/>
-            <Option name="outline_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
-            <Option name="outline_width_unit" value="MM" type="QString"/>
-            <Option name="scale_method" value="diameter" type="QString"/>
-            <Option name="size" value="1.5" type="QString"/>
-            <Option name="size_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
-            <Option name="size_unit" value="MM" type="QString"/>
-            <Option name="vertical_anchor_point" value="1" type="QString"/>
+            <Option value="0" name="angle" type="QString"/>
+            <Option value="square" name="cap_style" type="QString"/>
+            <Option value="196,60,57,255,rgb:0.7686274509803922,0.23529411764705882,0.22352941176470589,1" name="color" type="QString"/>
+            <Option value="1" name="horizontal_anchor_point" type="QString"/>
+            <Option value="bevel" name="joinstyle" type="QString"/>
+            <Option value="cross_fill" name="name" type="QString"/>
+            <Option value="0,0" name="offset" type="QString"/>
+            <Option value="3x:0,0,0,0,0,0" name="offset_map_unit_scale" type="QString"/>
+            <Option value="MM" name="offset_unit" type="QString"/>
+            <Option value="35,35,35,255,rgb:0.13725490196078433,0.13725490196078433,0.13725490196078433,1" name="outline_color" type="QString"/>
+            <Option value="solid" name="outline_style" type="QString"/>
+            <Option value="0" name="outline_width" type="QString"/>
+            <Option value="3x:0,0,0,0,0,0" name="outline_width_map_unit_scale" type="QString"/>
+            <Option value="MM" name="outline_width_unit" type="QString"/>
+            <Option value="diameter" name="scale_method" type="QString"/>
+            <Option value="1.5" name="size" type="QString"/>
+            <Option value="3x:0,0,0,0,0,0" name="size_map_unit_scale" type="QString"/>
+            <Option value="MM" name="size_unit" type="QString"/>
+            <Option value="1" name="vertical_anchor_point" type="QString"/>
           </Option>
-          <prop k="angle" v="0"/>
-          <prop k="cap_style" v="square"/>
-          <prop k="color" v="196,60,57,255"/>
-          <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="joinstyle" v="bevel"/>
-          <prop k="name" v="cross_fill"/>
-          <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="35,35,35,255"/>
-          <prop k="outline_style" v="solid"/>
-          <prop k="outline_width" v="0"/>
-          <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="outline_width_unit" v="MM"/>
-          <prop k="scale_method" v="diameter"/>
-          <prop k="size" v="1.5"/>
-          <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
-          <prop k="vertical_anchor_point" v="1"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option name="name" value="" type="QString"/>
+              <Option value="" name="name" type="QString"/>
               <Option name="properties"/>
-              <Option name="type" value="collection" type="QString"/>
+              <Option value="collection" name="type" type="QString"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" name="2" alpha="1" force_rhr="0" type="marker">
+      <symbol name="2" type="marker" frame_rate="10" alpha="1" clip_to_extent="1" force_rhr="0" is_animated="0">
         <data_defined_properties>
           <Option type="Map">
-            <Option name="name" value="" type="QString"/>
+            <Option value="" name="name" type="QString"/>
             <Option name="properties"/>
-            <Option name="type" value="collection" type="QString"/>
+            <Option value="collection" name="type" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
+        <layer id="{c87572d1-d4e7-4dea-9c32-2140f8109263}" locked="0" class="SimpleMarker" pass="0" enabled="1">
           <Option type="Map">
-            <Option name="angle" value="0" type="QString"/>
-            <Option name="cap_style" value="square" type="QString"/>
-            <Option name="color" value="5,4,1,255" type="QString"/>
-            <Option name="horizontal_anchor_point" value="1" type="QString"/>
-            <Option name="joinstyle" value="bevel" type="QString"/>
-            <Option name="name" value="circle" type="QString"/>
-            <Option name="offset" value="0,0" type="QString"/>
-            <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
-            <Option name="offset_unit" value="MM" type="QString"/>
-            <Option name="outline_color" value="35,35,35,255" type="QString"/>
-            <Option name="outline_style" value="solid" type="QString"/>
-            <Option name="outline_width" value="0" type="QString"/>
-            <Option name="outline_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
-            <Option name="outline_width_unit" value="MM" type="QString"/>
-            <Option name="scale_method" value="diameter" type="QString"/>
-            <Option name="size" value="1.4" type="QString"/>
-            <Option name="size_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
-            <Option name="size_unit" value="MM" type="QString"/>
-            <Option name="vertical_anchor_point" value="1" type="QString"/>
+            <Option value="0" name="angle" type="QString"/>
+            <Option value="square" name="cap_style" type="QString"/>
+            <Option value="5,4,1,255,rgb:0.0196078431372549,0.01568627450980392,0.00392156862745098,1" name="color" type="QString"/>
+            <Option value="1" name="horizontal_anchor_point" type="QString"/>
+            <Option value="bevel" name="joinstyle" type="QString"/>
+            <Option value="circle" name="name" type="QString"/>
+            <Option value="0,0" name="offset" type="QString"/>
+            <Option value="3x:0,0,0,0,0,0" name="offset_map_unit_scale" type="QString"/>
+            <Option value="MM" name="offset_unit" type="QString"/>
+            <Option value="35,35,35,255,rgb:0.13725490196078433,0.13725490196078433,0.13725490196078433,1" name="outline_color" type="QString"/>
+            <Option value="solid" name="outline_style" type="QString"/>
+            <Option value="0" name="outline_width" type="QString"/>
+            <Option value="3x:0,0,0,0,0,0" name="outline_width_map_unit_scale" type="QString"/>
+            <Option value="MM" name="outline_width_unit" type="QString"/>
+            <Option value="diameter" name="scale_method" type="QString"/>
+            <Option value="1.4" name="size" type="QString"/>
+            <Option value="3x:0,0,0,0,0,0" name="size_map_unit_scale" type="QString"/>
+            <Option value="MM" name="size_unit" type="QString"/>
+            <Option value="1" name="vertical_anchor_point" type="QString"/>
           </Option>
-          <prop k="angle" v="0"/>
-          <prop k="cap_style" v="square"/>
-          <prop k="color" v="5,4,1,255"/>
-          <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="joinstyle" v="bevel"/>
-          <prop k="name" v="circle"/>
-          <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="35,35,35,255"/>
-          <prop k="outline_style" v="solid"/>
-          <prop k="outline_width" v="0"/>
-          <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="outline_width_unit" v="MM"/>
-          <prop k="scale_method" v="diameter"/>
-          <prop k="size" v="1.4"/>
-          <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
-          <prop k="vertical_anchor_point" v="1"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option name="name" value="" type="QString"/>
+              <Option value="" name="name" type="QString"/>
               <Option name="properties"/>
-              <Option name="type" value="collection" type="QString"/>
+              <Option value="collection" name="type" type="QString"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol clip_to_extent="1" name="3" alpha="1" force_rhr="0" type="marker">
+      <symbol name="3" type="marker" frame_rate="10" alpha="1" clip_to_extent="1" force_rhr="0" is_animated="0">
         <data_defined_properties>
           <Option type="Map">
-            <Option name="name" value="" type="QString"/>
+            <Option value="" name="name" type="QString"/>
             <Option name="properties"/>
-            <Option name="type" value="collection" type="QString"/>
+            <Option value="collection" name="type" type="QString"/>
           </Option>
         </data_defined_properties>
-        <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
+        <layer id="{4fe79d0f-9dda-4333-8eca-22bb5c020055}" locked="0" class="SimpleMarker" pass="0" enabled="1">
           <Option type="Map">
-            <Option name="angle" value="0" type="QString"/>
-            <Option name="cap_style" value="square" type="QString"/>
-            <Option name="color" value="255,255,255,255" type="QString"/>
-            <Option name="horizontal_anchor_point" value="1" type="QString"/>
-            <Option name="joinstyle" value="bevel" type="QString"/>
-            <Option name="name" value="circle" type="QString"/>
-            <Option name="offset" value="0,0" type="QString"/>
-            <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
-            <Option name="offset_unit" value="MM" type="QString"/>
-            <Option name="outline_color" value="227,26,28,255" type="QString"/>
-            <Option name="outline_style" value="solid" type="QString"/>
-            <Option name="outline_width" value="0.4" type="QString"/>
-            <Option name="outline_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
-            <Option name="outline_width_unit" value="MM" type="QString"/>
-            <Option name="scale_method" value="area" type="QString"/>
-            <Option name="size" value="5.2" type="QString"/>
-            <Option name="size_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
-            <Option name="size_unit" value="MM" type="QString"/>
-            <Option name="vertical_anchor_point" value="1" type="QString"/>
+            <Option value="0" name="angle" type="QString"/>
+            <Option value="square" name="cap_style" type="QString"/>
+            <Option value="255,255,255,255,rgb:1,1,1,1" name="color" type="QString"/>
+            <Option value="1" name="horizontal_anchor_point" type="QString"/>
+            <Option value="bevel" name="joinstyle" type="QString"/>
+            <Option value="circle" name="name" type="QString"/>
+            <Option value="0,0" name="offset" type="QString"/>
+            <Option value="3x:0,0,0,0,0,0" name="offset_map_unit_scale" type="QString"/>
+            <Option value="MM" name="offset_unit" type="QString"/>
+            <Option value="227,26,28,255,rgb:0.8901960784313725,0.10196078431372549,0.10980392156862745,1" name="outline_color" type="QString"/>
+            <Option value="solid" name="outline_style" type="QString"/>
+            <Option value="0.4" name="outline_width" type="QString"/>
+            <Option value="3x:0,0,0,0,0,0" name="outline_width_map_unit_scale" type="QString"/>
+            <Option value="MM" name="outline_width_unit" type="QString"/>
+            <Option value="area" name="scale_method" type="QString"/>
+            <Option value="5.2" name="size" type="QString"/>
+            <Option value="3x:0,0,0,0,0,0" name="size_map_unit_scale" type="QString"/>
+            <Option value="MM" name="size_unit" type="QString"/>
+            <Option value="1" name="vertical_anchor_point" type="QString"/>
           </Option>
-          <prop k="angle" v="0"/>
-          <prop k="cap_style" v="square"/>
-          <prop k="color" v="255,255,255,255"/>
-          <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="joinstyle" v="bevel"/>
-          <prop k="name" v="circle"/>
-          <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="227,26,28,255"/>
-          <prop k="outline_style" v="solid"/>
-          <prop k="outline_width" v="0.4"/>
-          <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="outline_width_unit" v="MM"/>
-          <prop k="scale_method" v="area"/>
-          <prop k="size" v="5.2"/>
-          <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
-          <prop k="vertical_anchor_point" v="1"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option name="name" value="" type="QString"/>
+              <Option value="" name="name" type="QString"/>
               <Option name="properties"/>
-              <Option name="type" value="collection" type="QString"/>
+              <Option value="collection" name="type" type="QString"/>
             </Option>
           </data_defined_properties>
         </layer>
-        <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
+        <layer id="{12f2a28e-3e56-4adc-a222-43d69188e599}" locked="0" class="SimpleMarker" pass="0" enabled="1">
           <Option type="Map">
-            <Option name="angle" value="0" type="QString"/>
-            <Option name="cap_style" value="square" type="QString"/>
-            <Option name="color" value="227,26,28,255" type="QString"/>
-            <Option name="horizontal_anchor_point" value="1" type="QString"/>
-            <Option name="joinstyle" value="bevel" type="QString"/>
-            <Option name="name" value="cross_fill" type="QString"/>
-            <Option name="offset" value="0,0" type="QString"/>
-            <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
-            <Option name="offset_unit" value="MM" type="QString"/>
-            <Option name="outline_color" value="227,26,28,255" type="QString"/>
-            <Option name="outline_style" value="solid" type="QString"/>
-            <Option name="outline_width" value="0.2" type="QString"/>
-            <Option name="outline_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
-            <Option name="outline_width_unit" value="MM" type="QString"/>
-            <Option name="scale_method" value="area" type="QString"/>
-            <Option name="size" value="3" type="QString"/>
-            <Option name="size_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
-            <Option name="size_unit" value="MM" type="QString"/>
-            <Option name="vertical_anchor_point" value="1" type="QString"/>
+            <Option value="0" name="angle" type="QString"/>
+            <Option value="square" name="cap_style" type="QString"/>
+            <Option value="227,26,28,255,rgb:0.8901960784313725,0.10196078431372549,0.10980392156862745,1" name="color" type="QString"/>
+            <Option value="1" name="horizontal_anchor_point" type="QString"/>
+            <Option value="bevel" name="joinstyle" type="QString"/>
+            <Option value="cross_fill" name="name" type="QString"/>
+            <Option value="0,0" name="offset" type="QString"/>
+            <Option value="3x:0,0,0,0,0,0" name="offset_map_unit_scale" type="QString"/>
+            <Option value="MM" name="offset_unit" type="QString"/>
+            <Option value="227,26,28,255,rgb:0.8901960784313725,0.10196078431372549,0.10980392156862745,1" name="outline_color" type="QString"/>
+            <Option value="solid" name="outline_style" type="QString"/>
+            <Option value="0.2" name="outline_width" type="QString"/>
+            <Option value="3x:0,0,0,0,0,0" name="outline_width_map_unit_scale" type="QString"/>
+            <Option value="MM" name="outline_width_unit" type="QString"/>
+            <Option value="area" name="scale_method" type="QString"/>
+            <Option value="3" name="size" type="QString"/>
+            <Option value="3x:0,0,0,0,0,0" name="size_map_unit_scale" type="QString"/>
+            <Option value="MM" name="size_unit" type="QString"/>
+            <Option value="1" name="vertical_anchor_point" type="QString"/>
           </Option>
-          <prop k="angle" v="0"/>
-          <prop k="cap_style" v="square"/>
-          <prop k="color" v="227,26,28,255"/>
-          <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="joinstyle" v="bevel"/>
-          <prop k="name" v="cross_fill"/>
-          <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="227,26,28,255"/>
-          <prop k="outline_style" v="solid"/>
-          <prop k="outline_width" v="0.2"/>
-          <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="outline_width_unit" v="MM"/>
-          <prop k="scale_method" v="area"/>
-          <prop k="size" v="3"/>
-          <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="size_unit" v="MM"/>
-          <prop k="vertical_anchor_point" v="1"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option name="name" value="" type="QString"/>
+              <Option value="" name="name" type="QString"/>
               <Option name="properties"/>
-              <Option name="type" value="collection" type="QString"/>
+              <Option value="collection" name="type" type="QString"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
     </symbols>
   </renderer-v2>
+  <selection mode="Default">
+    <selectionColor invalid="1"/>
+    <selectionSymbol>
+      <symbol name="" type="marker" frame_rate="10" alpha="1" clip_to_extent="1" force_rhr="0" is_animated="0">
+        <data_defined_properties>
+          <Option type="Map">
+            <Option value="" name="name" type="QString"/>
+            <Option name="properties"/>
+            <Option value="collection" name="type" type="QString"/>
+          </Option>
+        </data_defined_properties>
+        <layer id="{92b0fe1b-26d2-45a4-8322-898dba360b19}" locked="0" class="SimpleMarker" pass="0" enabled="1">
+          <Option type="Map">
+            <Option value="0" name="angle" type="QString"/>
+            <Option value="square" name="cap_style" type="QString"/>
+            <Option value="255,0,0,255,rgb:1,0,0,1" name="color" type="QString"/>
+            <Option value="1" name="horizontal_anchor_point" type="QString"/>
+            <Option value="bevel" name="joinstyle" type="QString"/>
+            <Option value="circle" name="name" type="QString"/>
+            <Option value="0,0" name="offset" type="QString"/>
+            <Option value="3x:0,0,0,0,0,0" name="offset_map_unit_scale" type="QString"/>
+            <Option value="MM" name="offset_unit" type="QString"/>
+            <Option value="35,35,35,255,rgb:0.13725490196078433,0.13725490196078433,0.13725490196078433,1" name="outline_color" type="QString"/>
+            <Option value="solid" name="outline_style" type="QString"/>
+            <Option value="0" name="outline_width" type="QString"/>
+            <Option value="3x:0,0,0,0,0,0" name="outline_width_map_unit_scale" type="QString"/>
+            <Option value="MM" name="outline_width_unit" type="QString"/>
+            <Option value="diameter" name="scale_method" type="QString"/>
+            <Option value="2" name="size" type="QString"/>
+            <Option value="3x:0,0,0,0,0,0" name="size_map_unit_scale" type="QString"/>
+            <Option value="MM" name="size_unit" type="QString"/>
+            <Option value="1" name="vertical_anchor_point" type="QString"/>
+          </Option>
+          <data_defined_properties>
+            <Option type="Map">
+              <Option value="" name="name" type="QString"/>
+              <Option name="properties"/>
+              <Option value="collection" name="type" type="QString"/>
+            </Option>
+          </data_defined_properties>
+        </layer>
+      </symbol>
+    </selectionSymbol>
+  </selection>
   <labeling type="rule-based">
-    <rules key="{f73427a6-312f-43f7-bf48-258f24d17707}">
-      <rule description="peak label" key="{ad7eb2cd-c6b2-4f8c-b1fc-fafefc4f5e93}" filter=" &quot;natural&quot;  =  'peak' ">
+    <rules key="{f177a4ca-9e50-4ccc-b7c7-c14ac6f40b9a}">
+      <rule filter=" &quot;natural&quot;  =  'peak' " description="peak label" key="{374ef13d-0442-42cb-8006-9e09879a0df3}">
         <settings calloutType="simple">
-          <text-style fontFamily="Segoe UI" capitalization="0" textColor="50,50,50,255" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontSizeUnit="Point" fontUnderline="0" fontKerning="1" textOpacity="1" multilineHeight="1" fontWordSpacing="0" fontStrikeout="0" fontItalic="0" blendMode="0" useSubstitutions="0" fontSize="8" previewBkgrdColor="255,255,255,255" textOrientation="horizontal" fontWeight="50" legendString="Aa" allowHtml="0" isExpression="0" fieldName="name" namedStyle="Regular" fontLetterSpacing="0">
+          <text-style fontSizeMapUnitScale="3x:0,0,0,0,0,0" previewBkgrdColor="255,255,255,255,rgb:1,1,1,1" fontLetterSpacing="0" useSubstitutions="0" capitalization="0" legendString="Aa" namedStyle="Regular" textOpacity="1" blendMode="0" textOrientation="horizontal" fieldName="name" fontSize="25" textColor="50,50,50,255,rgb:0.19607843137254902,0.19607843137254902,0.19607843137254902,1" multilineHeightUnit="Percentage" forcedBold="0" forcedItalic="0" fontUnderline="0" multilineHeight="1" fontFamily="Segoe UI" fontKerning="1" fontWordSpacing="0" fontWeight="50" fontItalic="0" fontStrikeout="0" fontSizeUnit="MapUnit" allowHtml="0" isExpression="0">
             <families/>
-            <text-buffer bufferBlendMode="0" bufferOpacity="0.5" bufferNoFill="1" bufferDraw="1" bufferSize="1" bufferColor="250,250,250,255" bufferSizeUnits="MM" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferJoinStyle="128"/>
-            <text-mask maskEnabled="0" maskSize="0" maskSizeMapUnitScale="3x:0,0,0,0,0,0" maskJoinStyle="128" maskSizeUnits="MM" maskOpacity="1" maskType="0" maskedSymbolLayers=""/>
-            <background shapeRadiiY="0" shapeBorderWidth="0" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeSizeX="0" shapeRotation="0" shapeOffsetUnit="Point" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeOffsetY="0" shapeSVGFile="" shapeDraw="0" shapeRadiiX="0" shapeBorderColor="128,128,128,255" shapeSizeType="0" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeBorderWidthUnit="Point" shapeRotationType="0" shapeType="0" shapeFillColor="255,255,255,255" shapeOffsetX="0" shapeBlendMode="0" shapeSizeY="0" shapeSizeUnit="Point" shapeJoinStyle="64" shapeRadiiUnit="Point" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeOpacity="1">
-              <symbol clip_to_extent="1" name="markerSymbol" alpha="1" force_rhr="0" type="marker">
+            <text-buffer bufferSize="1" bufferNoFill="1" bufferJoinStyle="128" bufferColor="250,250,250,255,rgb:0.98039215686274506,0.98039215686274506,0.98039215686274506,1" bufferDraw="1" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferOpacity="0.5" bufferBlendMode="0" bufferSizeUnits="MM"/>
+            <text-mask maskSizeUnits="MM" maskedSymbolLayers="" maskType="0" maskJoinStyle="128" maskSize="0" maskOpacity="1" maskEnabled="0" maskSizeMapUnitScale="3x:0,0,0,0,0,0"/>
+            <background shapeDraw="0" shapeFillColor="255,255,255,255,rgb:1,1,1,1" shapeBorderWidthUnit="Point" shapeRadiiY="0" shapeRotation="0" shapeOpacity="1" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeSVGFile="" shapeOffsetY="0" shapeBorderColor="128,128,128,255,rgb:0.50196078431372548,0.50196078431372548,0.50196078431372548,1" shapeOffsetX="0" shapeOffsetUnit="Point" shapeBlendMode="0" shapeSizeX="0" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeRadiiX="0" shapeJoinStyle="64" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeSizeType="0" shapeSizeUnit="Point" shapeBorderWidth="0" shapeSizeY="0" shapeType="0" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeRotationType="0" shapeRadiiUnit="Point">
+              <symbol name="markerSymbol" type="marker" frame_rate="10" alpha="1" clip_to_extent="1" force_rhr="0" is_animated="0">
                 <data_defined_properties>
                   <Option type="Map">
-                    <Option name="name" value="" type="QString"/>
+                    <Option value="" name="name" type="QString"/>
                     <Option name="properties"/>
-                    <Option name="type" value="collection" type="QString"/>
+                    <Option value="collection" name="type" type="QString"/>
                   </Option>
                 </data_defined_properties>
-                <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
+                <layer id="" locked="0" class="SimpleMarker" pass="0" enabled="1">
                   <Option type="Map">
-                    <Option name="angle" value="0" type="QString"/>
-                    <Option name="cap_style" value="square" type="QString"/>
-                    <Option name="color" value="255,158,23,255" type="QString"/>
-                    <Option name="horizontal_anchor_point" value="1" type="QString"/>
-                    <Option name="joinstyle" value="bevel" type="QString"/>
-                    <Option name="name" value="circle" type="QString"/>
-                    <Option name="offset" value="0,0" type="QString"/>
-                    <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
-                    <Option name="offset_unit" value="MM" type="QString"/>
-                    <Option name="outline_color" value="35,35,35,255" type="QString"/>
-                    <Option name="outline_style" value="solid" type="QString"/>
-                    <Option name="outline_width" value="0" type="QString"/>
-                    <Option name="outline_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
-                    <Option name="outline_width_unit" value="MM" type="QString"/>
-                    <Option name="scale_method" value="diameter" type="QString"/>
-                    <Option name="size" value="2" type="QString"/>
-                    <Option name="size_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
-                    <Option name="size_unit" value="MM" type="QString"/>
-                    <Option name="vertical_anchor_point" value="1" type="QString"/>
+                    <Option value="0" name="angle" type="QString"/>
+                    <Option value="square" name="cap_style" type="QString"/>
+                    <Option value="255,158,23,255,rgb:1,0.61960784313725492,0.09019607843137255,1" name="color" type="QString"/>
+                    <Option value="1" name="horizontal_anchor_point" type="QString"/>
+                    <Option value="bevel" name="joinstyle" type="QString"/>
+                    <Option value="circle" name="name" type="QString"/>
+                    <Option value="0,0" name="offset" type="QString"/>
+                    <Option value="3x:0,0,0,0,0,0" name="offset_map_unit_scale" type="QString"/>
+                    <Option value="MM" name="offset_unit" type="QString"/>
+                    <Option value="35,35,35,255,rgb:0.13725490196078433,0.13725490196078433,0.13725490196078433,1" name="outline_color" type="QString"/>
+                    <Option value="solid" name="outline_style" type="QString"/>
+                    <Option value="0" name="outline_width" type="QString"/>
+                    <Option value="3x:0,0,0,0,0,0" name="outline_width_map_unit_scale" type="QString"/>
+                    <Option value="MM" name="outline_width_unit" type="QString"/>
+                    <Option value="diameter" name="scale_method" type="QString"/>
+                    <Option value="2" name="size" type="QString"/>
+                    <Option value="3x:0,0,0,0,0,0" name="size_map_unit_scale" type="QString"/>
+                    <Option value="MM" name="size_unit" type="QString"/>
+                    <Option value="1" name="vertical_anchor_point" type="QString"/>
                   </Option>
-                  <prop k="angle" v="0"/>
-                  <prop k="cap_style" v="square"/>
-                  <prop k="color" v="255,158,23,255"/>
-                  <prop k="horizontal_anchor_point" v="1"/>
-                  <prop k="joinstyle" v="bevel"/>
-                  <prop k="name" v="circle"/>
-                  <prop k="offset" v="0,0"/>
-                  <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-                  <prop k="offset_unit" v="MM"/>
-                  <prop k="outline_color" v="35,35,35,255"/>
-                  <prop k="outline_style" v="solid"/>
-                  <prop k="outline_width" v="0"/>
-                  <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-                  <prop k="outline_width_unit" v="MM"/>
-                  <prop k="scale_method" v="diameter"/>
-                  <prop k="size" v="2"/>
-                  <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-                  <prop k="size_unit" v="MM"/>
-                  <prop k="vertical_anchor_point" v="1"/>
                   <data_defined_properties>
                     <Option type="Map">
-                      <Option name="name" value="" type="QString"/>
+                      <Option value="" name="name" type="QString"/>
                       <Option name="properties"/>
-                      <Option name="type" value="collection" type="QString"/>
+                      <Option value="collection" name="type" type="QString"/>
                     </Option>
                   </data_defined_properties>
                 </layer>
               </symbol>
-              <symbol clip_to_extent="1" name="fillSymbol" alpha="1" force_rhr="0" type="fill">
+              <symbol name="fillSymbol" type="fill" frame_rate="10" alpha="1" clip_to_extent="1" force_rhr="0" is_animated="0">
                 <data_defined_properties>
                   <Option type="Map">
-                    <Option name="name" value="" type="QString"/>
+                    <Option value="" name="name" type="QString"/>
                     <Option name="properties"/>
-                    <Option name="type" value="collection" type="QString"/>
+                    <Option value="collection" name="type" type="QString"/>
                   </Option>
                 </data_defined_properties>
-                <layer enabled="1" locked="0" pass="0" class="SimpleFill">
+                <layer id="" locked="0" class="SimpleFill" pass="0" enabled="1">
                   <Option type="Map">
-                    <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
-                    <Option name="color" value="255,255,255,255" type="QString"/>
-                    <Option name="joinstyle" value="bevel" type="QString"/>
-                    <Option name="offset" value="0,0" type="QString"/>
-                    <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
-                    <Option name="offset_unit" value="MM" type="QString"/>
-                    <Option name="outline_color" value="128,128,128,255" type="QString"/>
-                    <Option name="outline_style" value="no" type="QString"/>
-                    <Option name="outline_width" value="0" type="QString"/>
-                    <Option name="outline_width_unit" value="Point" type="QString"/>
-                    <Option name="style" value="solid" type="QString"/>
+                    <Option value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale" type="QString"/>
+                    <Option value="255,255,255,255,rgb:1,1,1,1" name="color" type="QString"/>
+                    <Option value="bevel" name="joinstyle" type="QString"/>
+                    <Option value="0,0" name="offset" type="QString"/>
+                    <Option value="3x:0,0,0,0,0,0" name="offset_map_unit_scale" type="QString"/>
+                    <Option value="MM" name="offset_unit" type="QString"/>
+                    <Option value="128,128,128,255,rgb:0.50196078431372548,0.50196078431372548,0.50196078431372548,1" name="outline_color" type="QString"/>
+                    <Option value="no" name="outline_style" type="QString"/>
+                    <Option value="0" name="outline_width" type="QString"/>
+                    <Option value="Point" name="outline_width_unit" type="QString"/>
+                    <Option value="solid" name="style" type="QString"/>
                   </Option>
-                  <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-                  <prop k="color" v="255,255,255,255"/>
-                  <prop k="joinstyle" v="bevel"/>
-                  <prop k="offset" v="0,0"/>
-                  <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-                  <prop k="offset_unit" v="MM"/>
-                  <prop k="outline_color" v="128,128,128,255"/>
-                  <prop k="outline_style" v="no"/>
-                  <prop k="outline_width" v="0"/>
-                  <prop k="outline_width_unit" v="Point"/>
-                  <prop k="style" v="solid"/>
                   <data_defined_properties>
                     <Option type="Map">
-                      <Option name="name" value="" type="QString"/>
+                      <Option value="" name="name" type="QString"/>
                       <Option name="properties"/>
-                      <Option name="type" value="collection" type="QString"/>
+                      <Option value="collection" name="type" type="QString"/>
                     </Option>
                   </data_defined_properties>
                 </layer>
               </symbol>
             </background>
-            <shadow shadowScale="100" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowOpacity="0.69999999999999996" shadowRadiusAlphaOnly="0" shadowOffsetDist="1" shadowOffsetGlobal="1" shadowRadiusUnit="MM" shadowOffsetAngle="135" shadowOffsetUnit="MM" shadowColor="0,0,0,255" shadowUnder="0" shadowDraw="0" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowRadius="1.5" shadowBlendMode="6"/>
+            <shadow shadowOpacity="0.69999999999999996" shadowOffsetUnit="MM" shadowOffsetAngle="135" shadowRadiusUnit="MM" shadowScale="100" shadowOffsetDist="1" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowUnder="0" shadowRadiusAlphaOnly="0" shadowOffsetGlobal="1" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowDraw="0" shadowRadius="1.5" shadowColor="0,0,0,255,rgb:0,0,0,1" shadowBlendMode="6"/>
             <dd_properties>
               <Option type="Map">
-                <Option name="name" value="" type="QString"/>
+                <Option value="" name="name" type="QString"/>
                 <Option name="properties"/>
-                <Option name="type" value="collection" type="QString"/>
+                <Option value="collection" name="type" type="QString"/>
               </Option>
             </dd_properties>
             <substitutions/>
           </text-style>
-          <text-format addDirectionSymbol="0" placeDirectionSymbol="0" autoWrapLength="0" reverseDirectionSymbol="0" formatNumbers="0" wrapChar="" multilineAlign="3" leftDirectionSymbol="&lt;" decimals="3" plussign="0" useMaxLineLengthForAutoWrap="1" rightDirectionSymbol=">"/>
-          <placement repeatDistanceUnits="MM" quadOffset="4" lineAnchorClipping="0" xOffset="0" overrunDistance="0" overrunDistanceUnit="MM" offsetType="1" distUnits="MM" centroidWhole="0" maxCurvedCharAngleIn="25" dist="0" preserveRotation="1" priority="5" repeatDistance="0" overrunDistanceMapUnitScale="3x:0,0,0,0,0,0" lineAnchorType="0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" centroidInside="0" maxCurvedCharAngleOut="-25" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" layerType="PointGeometry" lineAnchorPercent="0.5" geometryGeneratorEnabled="0" geometryGenerator="" yOffset="0" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" placement="6" placementFlags="10" offsetUnits="MM" distMapUnitScale="3x:0,0,0,0,0,0" rotationAngle="0" fitInPolygonOnly="0" polygonPlacementFlags="2" geometryGeneratorType="PointGeometry"/>
-          <rendering obstacleFactor="1" maxNumLabels="2000" fontLimitPixelSize="0" minFeatureSize="0" fontMinPixelSize="3" upsidedownLabels="0" labelPerPart="0" displayAll="0" unplacedVisibility="0" drawLabels="1" scaleMin="0" limitNumLabels="0" obstacleType="1" scaleVisibility="0" zIndex="0" fontMaxPixelSize="10000" obstacle="1" scaleMax="0" mergeLines="0"/>
+          <text-format reverseDirectionSymbol="0" useMaxLineLengthForAutoWrap="1" decimals="3" placeDirectionSymbol="0" autoWrapLength="0" formatNumbers="0" plussign="0" wrapChar="" leftDirectionSymbol="&lt;" addDirectionSymbol="0" rightDirectionSymbol=">" multilineAlign="3"/>
+          <placement distMapUnitScale="3x:0,0,0,0,0,0" overrunDistance="0" maxCurvedCharAngleIn="25" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" centroidWhole="0" yOffset="0" geometryGeneratorType="PointGeometry" maxCurvedCharAngleOut="-25" repeatDistanceUnits="MM" placementFlags="10" lineAnchorPercent="0.5" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" offsetType="1" quadOffset="4" lineAnchorClipping="0" dist="0" lineAnchorType="0" geometryGeneratorEnabled="0" priority="5" centroidInside="0" fitInPolygonOnly="0" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" lineAnchorTextPoint="CenterOfText" preserveRotation="1" geometryGenerator="" overrunDistanceUnit="MM" overrunDistanceMapUnitScale="3x:0,0,0,0,0,0" layerType="PointGeometry" distUnits="MM" polygonPlacementFlags="2" rotationUnit="AngleDegrees" xOffset="0" offsetUnits="MM" repeatDistance="0" overlapHandling="PreventOverlap" allowDegraded="0" rotationAngle="0" placement="6"/>
+          <rendering scaleMin="0" fontLimitPixelSize="0" fontMinPixelSize="3" minFeatureSize="0" unplacedVisibility="0" scaleVisibility="0" zIndex="0" fontMaxPixelSize="10000" labelPerPart="0" obstacleFactor="1" upsidedownLabels="0" obstacle="1" drawLabels="1" mergeLines="0" obstacleType="1" scaleMax="0" maxNumLabels="2000" limitNumLabels="0"/>
           <dd_properties>
             <Option type="Map">
-              <Option name="name" value="" type="QString"/>
+              <Option value="" name="name" type="QString"/>
               <Option name="properties"/>
-              <Option name="type" value="collection" type="QString"/>
+              <Option value="collection" name="type" type="QString"/>
             </Option>
           </dd_properties>
           <callout type="simple">
             <Option type="Map">
-              <Option name="anchorPoint" value="pole_of_inaccessibility" type="QString"/>
-              <Option name="blendMode" value="0" type="int"/>
+              <Option value="pole_of_inaccessibility" name="anchorPoint" type="QString"/>
+              <Option value="0" name="blendMode" type="int"/>
               <Option name="ddProperties" type="Map">
-                <Option name="name" value="" type="QString"/>
+                <Option value="" name="name" type="QString"/>
                 <Option name="properties"/>
-                <Option name="type" value="collection" type="QString"/>
+                <Option value="collection" name="type" type="QString"/>
               </Option>
-              <Option name="drawToAllParts" value="false" type="bool"/>
-              <Option name="enabled" value="0" type="QString"/>
-              <Option name="labelAnchorPoint" value="point_on_exterior" type="QString"/>
-              <Option name="lineSymbol" value="&lt;symbol clip_to_extent=&quot;1&quot; name=&quot;symbol&quot; alpha=&quot;1&quot; force_rhr=&quot;0&quot; type=&quot;line&quot;>&lt;data_defined_properties>&lt;Option type=&quot;Map&quot;>&lt;Option name=&quot;name&quot; value=&quot;&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;properties&quot;/>&lt;Option name=&quot;type&quot; value=&quot;collection&quot; type=&quot;QString&quot;/>&lt;/Option>&lt;/data_defined_properties>&lt;layer enabled=&quot;1&quot; locked=&quot;0&quot; pass=&quot;0&quot; class=&quot;SimpleLine&quot;>&lt;Option type=&quot;Map&quot;>&lt;Option name=&quot;align_dash_pattern&quot; value=&quot;0&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;capstyle&quot; value=&quot;square&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;customdash&quot; value=&quot;5;2&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;customdash_map_unit_scale&quot; value=&quot;3x:0,0,0,0,0,0&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;customdash_unit&quot; value=&quot;MM&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;dash_pattern_offset&quot; value=&quot;0&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;dash_pattern_offset_map_unit_scale&quot; value=&quot;3x:0,0,0,0,0,0&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;dash_pattern_offset_unit&quot; value=&quot;MM&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;draw_inside_polygon&quot; value=&quot;0&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;joinstyle&quot; value=&quot;bevel&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;line_color&quot; value=&quot;60,60,60,255&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;line_style&quot; value=&quot;solid&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;line_width&quot; value=&quot;0.3&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;line_width_unit&quot; value=&quot;MM&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;offset&quot; value=&quot;0&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;offset_map_unit_scale&quot; value=&quot;3x:0,0,0,0,0,0&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;offset_unit&quot; value=&quot;MM&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;ring_filter&quot; value=&quot;0&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;trim_distance_end&quot; value=&quot;0&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;trim_distance_end_map_unit_scale&quot; value=&quot;3x:0,0,0,0,0,0&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;trim_distance_end_unit&quot; value=&quot;MM&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;trim_distance_start&quot; value=&quot;0&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;trim_distance_start_map_unit_scale&quot; value=&quot;3x:0,0,0,0,0,0&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;trim_distance_start_unit&quot; value=&quot;MM&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;tweak_dash_pattern_on_corners&quot; value=&quot;0&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;use_custom_dash&quot; value=&quot;0&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;width_map_unit_scale&quot; value=&quot;3x:0,0,0,0,0,0&quot; type=&quot;QString&quot;/>&lt;/Option>&lt;prop k=&quot;align_dash_pattern&quot; v=&quot;0&quot;/>&lt;prop k=&quot;capstyle&quot; v=&quot;square&quot;/>&lt;prop k=&quot;customdash&quot; v=&quot;5;2&quot;/>&lt;prop k=&quot;customdash_map_unit_scale&quot; v=&quot;3x:0,0,0,0,0,0&quot;/>&lt;prop k=&quot;customdash_unit&quot; v=&quot;MM&quot;/>&lt;prop k=&quot;dash_pattern_offset&quot; v=&quot;0&quot;/>&lt;prop k=&quot;dash_pattern_offset_map_unit_scale&quot; v=&quot;3x:0,0,0,0,0,0&quot;/>&lt;prop k=&quot;dash_pattern_offset_unit&quot; v=&quot;MM&quot;/>&lt;prop k=&quot;draw_inside_polygon&quot; v=&quot;0&quot;/>&lt;prop k=&quot;joinstyle&quot; v=&quot;bevel&quot;/>&lt;prop k=&quot;line_color&quot; v=&quot;60,60,60,255&quot;/>&lt;prop k=&quot;line_style&quot; v=&quot;solid&quot;/>&lt;prop k=&quot;line_width&quot; v=&quot;0.3&quot;/>&lt;prop k=&quot;line_width_unit&quot; v=&quot;MM&quot;/>&lt;prop k=&quot;offset&quot; v=&quot;0&quot;/>&lt;prop k=&quot;offset_map_unit_scale&quot; v=&quot;3x:0,0,0,0,0,0&quot;/>&lt;prop k=&quot;offset_unit&quot; v=&quot;MM&quot;/>&lt;prop k=&quot;ring_filter&quot; v=&quot;0&quot;/>&lt;prop k=&quot;trim_distance_end&quot; v=&quot;0&quot;/>&lt;prop k=&quot;trim_distance_end_map_unit_scale&quot; v=&quot;3x:0,0,0,0,0,0&quot;/>&lt;prop k=&quot;trim_distance_end_unit&quot; v=&quot;MM&quot;/>&lt;prop k=&quot;trim_distance_start&quot; v=&quot;0&quot;/>&lt;prop k=&quot;trim_distance_start_map_unit_scale&quot; v=&quot;3x:0,0,0,0,0,0&quot;/>&lt;prop k=&quot;trim_distance_start_unit&quot; v=&quot;MM&quot;/>&lt;prop k=&quot;tweak_dash_pattern_on_corners&quot; v=&quot;0&quot;/>&lt;prop k=&quot;use_custom_dash&quot; v=&quot;0&quot;/>&lt;prop k=&quot;width_map_unit_scale&quot; v=&quot;3x:0,0,0,0,0,0&quot;/>&lt;data_defined_properties>&lt;Option type=&quot;Map&quot;>&lt;Option name=&quot;name&quot; value=&quot;&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;properties&quot;/>&lt;Option name=&quot;type&quot; value=&quot;collection&quot; type=&quot;QString&quot;/>&lt;/Option>&lt;/data_defined_properties>&lt;/layer>&lt;/symbol>" type="QString"/>
-              <Option name="minLength" value="0" type="double"/>
-              <Option name="minLengthMapUnitScale" value="3x:0,0,0,0,0,0" type="QString"/>
-              <Option name="minLengthUnit" value="MM" type="QString"/>
-              <Option name="offsetFromAnchor" value="0" type="double"/>
-              <Option name="offsetFromAnchorMapUnitScale" value="3x:0,0,0,0,0,0" type="QString"/>
-              <Option name="offsetFromAnchorUnit" value="MM" type="QString"/>
-              <Option name="offsetFromLabel" value="0" type="double"/>
-              <Option name="offsetFromLabelMapUnitScale" value="3x:0,0,0,0,0,0" type="QString"/>
-              <Option name="offsetFromLabelUnit" value="MM" type="QString"/>
+              <Option value="false" name="drawToAllParts" type="bool"/>
+              <Option value="0" name="enabled" type="QString"/>
+              <Option value="point_on_exterior" name="labelAnchorPoint" type="QString"/>
+              <Option value="&lt;symbol name=&quot;symbol&quot; type=&quot;line&quot; frame_rate=&quot;10&quot; alpha=&quot;1&quot; clip_to_extent=&quot;1&quot; force_rhr=&quot;0&quot; is_animated=&quot;0&quot;>&lt;data_defined_properties>&lt;Option type=&quot;Map&quot;>&lt;Option value=&quot;&quot; name=&quot;name&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;properties&quot;/>&lt;Option value=&quot;collection&quot; name=&quot;type&quot; type=&quot;QString&quot;/>&lt;/Option>&lt;/data_defined_properties>&lt;layer id=&quot;{78fc1746-ae63-4984-9143-e9167aa997f8}&quot; locked=&quot;0&quot; class=&quot;SimpleLine&quot; pass=&quot;0&quot; enabled=&quot;1&quot;>&lt;Option type=&quot;Map&quot;>&lt;Option value=&quot;0&quot; name=&quot;align_dash_pattern&quot; type=&quot;QString&quot;/>&lt;Option value=&quot;square&quot; name=&quot;capstyle&quot; type=&quot;QString&quot;/>&lt;Option value=&quot;5;2&quot; name=&quot;customdash&quot; type=&quot;QString&quot;/>&lt;Option value=&quot;3x:0,0,0,0,0,0&quot; name=&quot;customdash_map_unit_scale&quot; type=&quot;QString&quot;/>&lt;Option value=&quot;MM&quot; name=&quot;customdash_unit&quot; type=&quot;QString&quot;/>&lt;Option value=&quot;0&quot; name=&quot;dash_pattern_offset&quot; type=&quot;QString&quot;/>&lt;Option value=&quot;3x:0,0,0,0,0,0&quot; name=&quot;dash_pattern_offset_map_unit_scale&quot; type=&quot;QString&quot;/>&lt;Option value=&quot;MM&quot; name=&quot;dash_pattern_offset_unit&quot; type=&quot;QString&quot;/>&lt;Option value=&quot;0&quot; name=&quot;draw_inside_polygon&quot; type=&quot;QString&quot;/>&lt;Option value=&quot;bevel&quot; name=&quot;joinstyle&quot; type=&quot;QString&quot;/>&lt;Option value=&quot;60,60,60,255,rgb:0.23529411764705882,0.23529411764705882,0.23529411764705882,1&quot; name=&quot;line_color&quot; type=&quot;QString&quot;/>&lt;Option value=&quot;solid&quot; name=&quot;line_style&quot; type=&quot;QString&quot;/>&lt;Option value=&quot;0.3&quot; name=&quot;line_width&quot; type=&quot;QString&quot;/>&lt;Option value=&quot;MM&quot; name=&quot;line_width_unit&quot; type=&quot;QString&quot;/>&lt;Option value=&quot;0&quot; name=&quot;offset&quot; type=&quot;QString&quot;/>&lt;Option value=&quot;3x:0,0,0,0,0,0&quot; name=&quot;offset_map_unit_scale&quot; type=&quot;QString&quot;/>&lt;Option value=&quot;MM&quot; name=&quot;offset_unit&quot; type=&quot;QString&quot;/>&lt;Option value=&quot;0&quot; name=&quot;ring_filter&quot; type=&quot;QString&quot;/>&lt;Option value=&quot;0&quot; name=&quot;trim_distance_end&quot; type=&quot;QString&quot;/>&lt;Option value=&quot;3x:0,0,0,0,0,0&quot; name=&quot;trim_distance_end_map_unit_scale&quot; type=&quot;QString&quot;/>&lt;Option value=&quot;MM&quot; name=&quot;trim_distance_end_unit&quot; type=&quot;QString&quot;/>&lt;Option value=&quot;0&quot; name=&quot;trim_distance_start&quot; type=&quot;QString&quot;/>&lt;Option value=&quot;3x:0,0,0,0,0,0&quot; name=&quot;trim_distance_start_map_unit_scale&quot; type=&quot;QString&quot;/>&lt;Option value=&quot;MM&quot; name=&quot;trim_distance_start_unit&quot; type=&quot;QString&quot;/>&lt;Option value=&quot;0&quot; name=&quot;tweak_dash_pattern_on_corners&quot; type=&quot;QString&quot;/>&lt;Option value=&quot;0&quot; name=&quot;use_custom_dash&quot; type=&quot;QString&quot;/>&lt;Option value=&quot;3x:0,0,0,0,0,0&quot; name=&quot;width_map_unit_scale&quot; type=&quot;QString&quot;/>&lt;/Option>&lt;data_defined_properties>&lt;Option type=&quot;Map&quot;>&lt;Option value=&quot;&quot; name=&quot;name&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;properties&quot;/>&lt;Option value=&quot;collection&quot; name=&quot;type&quot; type=&quot;QString&quot;/>&lt;/Option>&lt;/data_defined_properties>&lt;/layer>&lt;/symbol>" name="lineSymbol" type="QString"/>
+              <Option value="0" name="minLength" type="double"/>
+              <Option value="3x:0,0,0,0,0,0" name="minLengthMapUnitScale" type="QString"/>
+              <Option value="MM" name="minLengthUnit" type="QString"/>
+              <Option value="0" name="offsetFromAnchor" type="double"/>
+              <Option value="3x:0,0,0,0,0,0" name="offsetFromAnchorMapUnitScale" type="QString"/>
+              <Option value="MM" name="offsetFromAnchorUnit" type="QString"/>
+              <Option value="0" name="offsetFromLabel" type="double"/>
+              <Option value="3x:0,0,0,0,0,0" name="offsetFromLabelMapUnitScale" type="QString"/>
+              <Option value="MM" name="offsetFromLabelUnit" type="QString"/>
             </Option>
           </callout>
         </settings>
@@ -463,8 +514,8 @@
   </labeling>
   <customproperties>
     <Option type="Map">
-      <Option name="OnConvertFormatRegeneratePrimaryKey" value="false" type="bool"/>
-      <Option name="embeddedWidgets/count" value="0" type="int"/>
+      <Option value="false" name="OnConvertFormatRegeneratePrimaryKey" type="bool"/>
+      <Option value="0" name="embeddedWidgets/count" type="int"/>
       <Option name="variableNames" type="StringList">
         <Option value="quickosm_query" type="QString"/>
       </Option>
@@ -476,81 +527,54 @@
   <blendMode>0</blendMode>
   <featureBlendMode>0</featureBlendMode>
   <layerOpacity>1</layerOpacity>
-  <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
-    <DiagramCategory barWidth="5" minScaleDenominator="0" penAlpha="255" spacing="5" enabled="0" lineSizeScale="3x:0,0,0,0,0,0" scaleBasedVisibility="0" labelPlacementMethod="XHeight" direction="0" height="15" backgroundColor="#ffffff" showAxis="1" sizeType="MM" spacingUnitScale="3x:0,0,0,0,0,0" penColor="#000000" opacity="1" sizeScale="3x:0,0,0,0,0,0" width="15" backgroundAlpha="255" minimumSize="0" rotationOffset="270" spacingUnit="MM" diagramOrientation="Up" lineSizeType="MM" maxScaleDenominator="1e+08" penWidth="0" scaleDependency="Area">
-      <fontProperties description="MS Shell Dlg 2,9.75,-1,5,50,0,0,0,0,0" style=""/>
-      <attribute color="#000000" label="" field=""/>
+  <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+    <DiagramCategory backgroundColor="#ffffff" maxScaleDenominator="1e+08" sizeScale="3x:0,0,0,0,0,0" backgroundAlpha="255" penColor="#000000" spacingUnitScale="3x:0,0,0,0,0,0" spacingUnit="MM" minimumSize="0" barWidth="5" opacity="1" spacing="5" minScaleDenominator="0" direction="0" sizeType="MM" rotationOffset="270" lineSizeScale="3x:0,0,0,0,0,0" enabled="0" penAlpha="255" labelPlacementMethod="XHeight" diagramOrientation="Up" lineSizeType="MM" scaleDependency="Area" penWidth="0" height="15" width="15" showAxis="1" scaleBasedVisibility="0">
+      <fontProperties bold="0" underline="0" strikethrough="0" italic="0" description="MS Shell Dlg 2,9.75,-1,5,50,0,0,0,0,0" style=""/>
+      <attribute field="" label="" color="#000000" colorOpacity="1"/>
       <axisSymbol>
-        <symbol clip_to_extent="1" name="" alpha="1" force_rhr="0" type="line">
+        <symbol name="" type="line" frame_rate="10" alpha="1" clip_to_extent="1" force_rhr="0" is_animated="0">
           <data_defined_properties>
             <Option type="Map">
-              <Option name="name" value="" type="QString"/>
+              <Option value="" name="name" type="QString"/>
               <Option name="properties"/>
-              <Option name="type" value="collection" type="QString"/>
+              <Option value="collection" name="type" type="QString"/>
             </Option>
           </data_defined_properties>
-          <layer enabled="1" locked="0" pass="0" class="SimpleLine">
+          <layer id="{64f6b7ce-b3fe-4350-8b03-d4117e8da5cc}" locked="0" class="SimpleLine" pass="0" enabled="1">
             <Option type="Map">
-              <Option name="align_dash_pattern" value="0" type="QString"/>
-              <Option name="capstyle" value="square" type="QString"/>
-              <Option name="customdash" value="5;2" type="QString"/>
-              <Option name="customdash_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
-              <Option name="customdash_unit" value="MM" type="QString"/>
-              <Option name="dash_pattern_offset" value="0" type="QString"/>
-              <Option name="dash_pattern_offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
-              <Option name="dash_pattern_offset_unit" value="MM" type="QString"/>
-              <Option name="draw_inside_polygon" value="0" type="QString"/>
-              <Option name="joinstyle" value="bevel" type="QString"/>
-              <Option name="line_color" value="35,35,35,255" type="QString"/>
-              <Option name="line_style" value="solid" type="QString"/>
-              <Option name="line_width" value="0.26" type="QString"/>
-              <Option name="line_width_unit" value="MM" type="QString"/>
-              <Option name="offset" value="0" type="QString"/>
-              <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
-              <Option name="offset_unit" value="MM" type="QString"/>
-              <Option name="ring_filter" value="0" type="QString"/>
-              <Option name="trim_distance_end" value="0" type="QString"/>
-              <Option name="trim_distance_end_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
-              <Option name="trim_distance_end_unit" value="MM" type="QString"/>
-              <Option name="trim_distance_start" value="0" type="QString"/>
-              <Option name="trim_distance_start_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
-              <Option name="trim_distance_start_unit" value="MM" type="QString"/>
-              <Option name="tweak_dash_pattern_on_corners" value="0" type="QString"/>
-              <Option name="use_custom_dash" value="0" type="QString"/>
-              <Option name="width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+              <Option value="0" name="align_dash_pattern" type="QString"/>
+              <Option value="square" name="capstyle" type="QString"/>
+              <Option value="5;2" name="customdash" type="QString"/>
+              <Option value="3x:0,0,0,0,0,0" name="customdash_map_unit_scale" type="QString"/>
+              <Option value="MM" name="customdash_unit" type="QString"/>
+              <Option value="0" name="dash_pattern_offset" type="QString"/>
+              <Option value="3x:0,0,0,0,0,0" name="dash_pattern_offset_map_unit_scale" type="QString"/>
+              <Option value="MM" name="dash_pattern_offset_unit" type="QString"/>
+              <Option value="0" name="draw_inside_polygon" type="QString"/>
+              <Option value="bevel" name="joinstyle" type="QString"/>
+              <Option value="35,35,35,255,rgb:0.13725490196078433,0.13725490196078433,0.13725490196078433,1" name="line_color" type="QString"/>
+              <Option value="solid" name="line_style" type="QString"/>
+              <Option value="0.26" name="line_width" type="QString"/>
+              <Option value="MM" name="line_width_unit" type="QString"/>
+              <Option value="0" name="offset" type="QString"/>
+              <Option value="3x:0,0,0,0,0,0" name="offset_map_unit_scale" type="QString"/>
+              <Option value="MM" name="offset_unit" type="QString"/>
+              <Option value="0" name="ring_filter" type="QString"/>
+              <Option value="0" name="trim_distance_end" type="QString"/>
+              <Option value="3x:0,0,0,0,0,0" name="trim_distance_end_map_unit_scale" type="QString"/>
+              <Option value="MM" name="trim_distance_end_unit" type="QString"/>
+              <Option value="0" name="trim_distance_start" type="QString"/>
+              <Option value="3x:0,0,0,0,0,0" name="trim_distance_start_map_unit_scale" type="QString"/>
+              <Option value="MM" name="trim_distance_start_unit" type="QString"/>
+              <Option value="0" name="tweak_dash_pattern_on_corners" type="QString"/>
+              <Option value="0" name="use_custom_dash" type="QString"/>
+              <Option value="3x:0,0,0,0,0,0" name="width_map_unit_scale" type="QString"/>
             </Option>
-            <prop k="align_dash_pattern" v="0"/>
-            <prop k="capstyle" v="square"/>
-            <prop k="customdash" v="5;2"/>
-            <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-            <prop k="customdash_unit" v="MM"/>
-            <prop k="dash_pattern_offset" v="0"/>
-            <prop k="dash_pattern_offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-            <prop k="dash_pattern_offset_unit" v="MM"/>
-            <prop k="draw_inside_polygon" v="0"/>
-            <prop k="joinstyle" v="bevel"/>
-            <prop k="line_color" v="35,35,35,255"/>
-            <prop k="line_style" v="solid"/>
-            <prop k="line_width" v="0.26"/>
-            <prop k="line_width_unit" v="MM"/>
-            <prop k="offset" v="0"/>
-            <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-            <prop k="offset_unit" v="MM"/>
-            <prop k="ring_filter" v="0"/>
-            <prop k="trim_distance_end" v="0"/>
-            <prop k="trim_distance_end_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-            <prop k="trim_distance_end_unit" v="MM"/>
-            <prop k="trim_distance_start" v="0"/>
-            <prop k="trim_distance_start_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-            <prop k="trim_distance_start_unit" v="MM"/>
-            <prop k="tweak_dash_pattern_on_corners" v="0"/>
-            <prop k="use_custom_dash" v="0"/>
-            <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
             <data_defined_properties>
               <Option type="Map">
-                <Option name="name" value="" type="QString"/>
+                <Option value="" name="name" type="QString"/>
                 <Option name="properties"/>
-                <Option name="type" value="collection" type="QString"/>
+                <Option value="collection" name="type" type="QString"/>
               </Option>
             </data_defined_properties>
           </layer>
@@ -558,660 +582,478 @@
       </axisSymbol>
     </DiagramCategory>
   </SingleCategoryDiagramRenderer>
-  <DiagramLayerSettings placement="0" dist="0" priority="0" showAll="1" zIndex="0" linePlacementFlags="18" obstacle="0">
+  <DiagramLayerSettings priority="0" obstacle="0" dist="0" linePlacementFlags="18" placement="0" zIndex="0" showAll="1">
     <properties>
       <Option type="Map">
-        <Option name="name" value="" type="QString"/>
+        <Option value="" name="name" type="QString"/>
         <Option name="properties"/>
-        <Option name="type" value="collection" type="QString"/>
+        <Option value="collection" name="type" type="QString"/>
       </Option>
     </properties>
   </DiagramLayerSettings>
-  <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+  <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
     <activeChecks/>
     <checkConfiguration/>
   </geometryOptions>
-  <legend showLabelLegend="0" type="default-vector"/>
+  <legend type="default-vector" showLabelLegend="0"/>
   <referencedLayers/>
   <fieldConfiguration>
-    <field configurationFlags="None" name="full_id">
+    <field name="full_id" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="osm_id">
+    <field name="osm_id" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="osm_type">
+    <field name="osm_type" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="highway">
+    <field name="drive_through" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="building">
+    <field name="source:name" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="amenity">
+    <field name="aerialway" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="railway">
+    <field name="shop" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="aerialway">
+    <field name="email" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="natural">
+    <field name="office" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="ref">
+    <field name="description" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="motor_vehicle">
+    <field name="addr:unit" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="foot">
+    <field name="addr:floor" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="parking">
+    <field name="operator:wikipedia" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="traffic_sign:forward">
+    <field name="operator:wikidata" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="side">
+    <field name="operator" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="waste">
+    <field name="capacity" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="material">
+    <field name="crossing:markings" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="bicycle_parking">
+    <field name="direction" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="service:bicycle:tools">
+    <field name="short_name" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="service:bicycle:stand">
+    <field name="opening_hours" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="fee">
+    <field name="takeaway" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="covered">
+    <field name="ref" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="indoor">
+    <field name="phone" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="capacity">
+    <field name="official_name" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="operator">
+    <field name="internet_access" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="diet:vegetarian">
+    <field name="cuisine" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="leisure">
+    <field name="brand:wikidata" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="surveillance:type">
+    <field name="brand" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="surveillance">
+    <field name="branch" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="man_made">
+    <field name="leaf_type" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="camera:type">
+    <field name="leaf_cycle" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="camera:mount">
+    <field name="denotation" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="official_name">
+    <field name="ele:ft" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="brand:wikidata">
+    <field name="natural" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="brand">
+    <field name="man_made" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="brewery">
+    <field name="tactile_paving" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="shop">
+    <field name="barrier" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="website">
+    <field name="website" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="toilets:wheelchair">
+    <field name="opening_hours:url" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="toilets">
+    <field name="leisure" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="takeaway">
+    <field name="addr:postcode" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="smoking">
+    <field name="addr:housenumber" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="roof:shape">
+    <field name="crossing_ref" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="roof:levels">
+    <field name="traffic_signals:direction" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="reservation">
+    <field name="crossing" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="payment:visa">
+    <field name="crossing:barrier" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="payment:mastercard">
+    <field name="railway" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="payment:discover_card">
+    <field name="crossing:saltire" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="payment:american_express">
+    <field name="amenity" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="outdoor_seating">
+    <field name="addr:street" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="opening_hours">
+    <field name="addr:state" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="level">
+    <field name="addr:city" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="internet_access">
+    <field name="noref" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="indoor_seating">
+    <field name="wikipedia" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="highchair">
+    <field name="wikidata" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="drive_through">
+    <field name="source:population" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="delivery">
+    <field name="population:date" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="cuisine">
+    <field name="population" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="check_date">
+    <field name="place" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="building:material">
+    <field name="name:en" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="building:levels">
+    <field name="name" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="bar">
+    <field name="gnis:feature_id" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="air_conditioning">
+    <field name="ele" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="addr:floor">
+    <field name="capital" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="tourism">
+    <field name="traffic_signals" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="information">
-      <editWidget type="TextEdit">
-        <config>
-          <Option/>
-        </config>
-      </editWidget>
-    </field>
-    <field configurationFlags="None" name="crossing:markings">
-      <editWidget type="TextEdit">
-        <config>
-          <Option/>
-        </config>
-      </editWidget>
-    </field>
-    <field configurationFlags="None" name="crossing:island">
-      <editWidget type="TextEdit">
-        <config>
-          <Option/>
-        </config>
-      </editWidget>
-    </field>
-    <field configurationFlags="None" name="crossing">
-      <editWidget type="TextEdit">
-        <config>
-          <Option/>
-        </config>
-      </editWidget>
-    </field>
-    <field configurationFlags="None" name="access">
-      <editWidget type="TextEdit">
-        <config>
-          <Option/>
-        </config>
-      </editWidget>
-    </field>
-    <field configurationFlags="None" name="barrier">
-      <editWidget type="TextEdit">
-        <config>
-          <Option/>
-        </config>
-      </editWidget>
-    </field>
-    <field configurationFlags="None" name="crossing:barrier">
-      <editWidget type="TextEdit">
-        <config>
-          <Option/>
-        </config>
-      </editWidget>
-    </field>
-    <field configurationFlags="None" name="wheelchair">
-      <editWidget type="TextEdit">
-        <config>
-          <Option/>
-        </config>
-      </editWidget>
-    </field>
-    <field configurationFlags="None" name="train">
-      <editWidget type="TextEdit">
-        <config>
-          <Option/>
-        </config>
-      </editWidget>
-    </field>
-    <field configurationFlags="None" name="aerialway:access">
-      <editWidget type="TextEdit">
-        <config>
-          <Option/>
-        </config>
-      </editWidget>
-    </field>
-    <field configurationFlags="None" name="direction">
-      <editWidget type="TextEdit">
-        <config>
-          <Option/>
-        </config>
-      </editWidget>
-    </field>
-    <field configurationFlags="None" name="bus">
-      <editWidget type="TextEdit">
-        <config>
-          <Option/>
-        </config>
-      </editWidget>
-    </field>
-    <field configurationFlags="None" name="denomination">
-      <editWidget type="TextEdit">
-        <config>
-          <Option/>
-        </config>
-      </editWidget>
-    </field>
-    <field configurationFlags="None" name="wikipedia">
-      <editWidget type="TextEdit">
-        <config>
-          <Option/>
-        </config>
-      </editWidget>
-    </field>
-    <field configurationFlags="None" name="wikidata">
-      <editWidget type="TextEdit">
-        <config>
-          <Option/>
-        </config>
-      </editWidget>
-    </field>
-    <field configurationFlags="None" name="religion">
-      <editWidget type="TextEdit">
-        <config>
-          <Option/>
-        </config>
-      </editWidget>
-    </field>
-    <field configurationFlags="None" name="name">
-      <editWidget type="TextEdit">
-        <config>
-          <Option/>
-        </config>
-      </editWidget>
-    </field>
-    <field configurationFlags="None" name="gnis:state_id">
-      <editWidget type="TextEdit">
-        <config>
-          <Option/>
-        </config>
-      </editWidget>
-    </field>
-    <field configurationFlags="None" name="gnis:feature_id">
-      <editWidget type="TextEdit">
-        <config>
-          <Option/>
-        </config>
-      </editWidget>
-    </field>
-    <field configurationFlags="None" name="gnis:edited">
-      <editWidget type="TextEdit">
-        <config>
-          <Option/>
-        </config>
-      </editWidget>
-    </field>
-    <field configurationFlags="None" name="gnis:created">
-      <editWidget type="TextEdit">
-        <config>
-          <Option/>
-        </config>
-      </editWidget>
-    </field>
-    <field configurationFlags="None" name="gnis:county_id">
-      <editWidget type="TextEdit">
-        <config>
-          <Option/>
-        </config>
-      </editWidget>
-    </field>
-    <field configurationFlags="None" name="ele">
-      <editWidget type="TextEdit">
-        <config>
-          <Option/>
-        </config>
-      </editWidget>
-    </field>
-    <field configurationFlags="None" name="description:wikidata">
-      <editWidget type="TextEdit">
-        <config>
-          <Option/>
-        </config>
-      </editWidget>
-    </field>
-    <field configurationFlags="None" name="description:de">
-      <editWidget type="TextEdit">
-        <config>
-          <Option/>
-        </config>
-      </editWidget>
-    </field>
-    <field configurationFlags="None" name="description">
-      <editWidget type="TextEdit">
-        <config>
-          <Option/>
-        </config>
-      </editWidget>
-    </field>
-    <field configurationFlags="None" name="public_transport">
+    <field name="highway" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
           <Option/>
@@ -1220,503 +1062,441 @@
     </field>
   </fieldConfiguration>
   <aliases>
-    <alias index="0" name="" field="full_id"/>
-    <alias index="1" name="" field="osm_id"/>
-    <alias index="2" name="" field="osm_type"/>
-    <alias index="3" name="" field="highway"/>
-    <alias index="4" name="" field="building"/>
-    <alias index="5" name="" field="amenity"/>
-    <alias index="6" name="" field="railway"/>
-    <alias index="7" name="" field="aerialway"/>
-    <alias index="8" name="" field="natural"/>
-    <alias index="9" name="" field="ref"/>
-    <alias index="10" name="" field="motor_vehicle"/>
-    <alias index="11" name="" field="foot"/>
-    <alias index="12" name="" field="parking"/>
-    <alias index="13" name="" field="traffic_sign:forward"/>
-    <alias index="14" name="" field="side"/>
-    <alias index="15" name="" field="waste"/>
-    <alias index="16" name="" field="material"/>
-    <alias index="17" name="" field="bicycle_parking"/>
-    <alias index="18" name="" field="service:bicycle:tools"/>
-    <alias index="19" name="" field="service:bicycle:stand"/>
-    <alias index="20" name="" field="fee"/>
-    <alias index="21" name="" field="covered"/>
-    <alias index="22" name="" field="indoor"/>
-    <alias index="23" name="" field="capacity"/>
-    <alias index="24" name="" field="operator"/>
-    <alias index="25" name="" field="diet:vegetarian"/>
-    <alias index="26" name="" field="leisure"/>
-    <alias index="27" name="" field="surveillance:type"/>
-    <alias index="28" name="" field="surveillance"/>
-    <alias index="29" name="" field="man_made"/>
-    <alias index="30" name="" field="camera:type"/>
-    <alias index="31" name="" field="camera:mount"/>
-    <alias index="32" name="" field="official_name"/>
-    <alias index="33" name="" field="brand:wikidata"/>
-    <alias index="34" name="" field="brand"/>
-    <alias index="35" name="" field="brewery"/>
-    <alias index="36" name="" field="shop"/>
-    <alias index="37" name="" field="website"/>
-    <alias index="38" name="" field="toilets:wheelchair"/>
-    <alias index="39" name="" field="toilets"/>
-    <alias index="40" name="" field="takeaway"/>
-    <alias index="41" name="" field="smoking"/>
-    <alias index="42" name="" field="roof:shape"/>
-    <alias index="43" name="" field="roof:levels"/>
-    <alias index="44" name="" field="reservation"/>
-    <alias index="45" name="" field="payment:visa"/>
-    <alias index="46" name="" field="payment:mastercard"/>
-    <alias index="47" name="" field="payment:discover_card"/>
-    <alias index="48" name="" field="payment:american_express"/>
-    <alias index="49" name="" field="outdoor_seating"/>
-    <alias index="50" name="" field="opening_hours"/>
-    <alias index="51" name="" field="level"/>
-    <alias index="52" name="" field="internet_access"/>
-    <alias index="53" name="" field="indoor_seating"/>
-    <alias index="54" name="" field="highchair"/>
-    <alias index="55" name="" field="drive_through"/>
-    <alias index="56" name="" field="delivery"/>
-    <alias index="57" name="" field="cuisine"/>
-    <alias index="58" name="" field="check_date"/>
-    <alias index="59" name="" field="building:material"/>
-    <alias index="60" name="" field="building:levels"/>
-    <alias index="61" name="" field="bar"/>
-    <alias index="62" name="" field="air_conditioning"/>
-    <alias index="63" name="" field="addr:floor"/>
-    <alias index="64" name="" field="tourism"/>
-    <alias index="65" name="" field="information"/>
-    <alias index="66" name="" field="crossing:markings"/>
-    <alias index="67" name="" field="crossing:island"/>
-    <alias index="68" name="" field="crossing"/>
-    <alias index="69" name="" field="access"/>
-    <alias index="70" name="" field="barrier"/>
-    <alias index="71" name="" field="crossing:barrier"/>
-    <alias index="72" name="" field="wheelchair"/>
-    <alias index="73" name="" field="train"/>
-    <alias index="74" name="" field="aerialway:access"/>
-    <alias index="75" name="" field="direction"/>
-    <alias index="76" name="" field="bus"/>
-    <alias index="77" name="" field="denomination"/>
-    <alias index="78" name="" field="wikipedia"/>
-    <alias index="79" name="" field="wikidata"/>
-    <alias index="80" name="" field="religion"/>
-    <alias index="81" name="" field="name"/>
-    <alias index="82" name="" field="gnis:state_id"/>
-    <alias index="83" name="" field="gnis:feature_id"/>
-    <alias index="84" name="" field="gnis:edited"/>
-    <alias index="85" name="" field="gnis:created"/>
-    <alias index="86" name="" field="gnis:county_id"/>
-    <alias index="87" name="" field="ele"/>
-    <alias index="88" name="" field="description:wikidata"/>
-    <alias index="89" name="" field="description:de"/>
-    <alias index="90" name="" field="description"/>
-    <alias index="91" name="" field="public_transport"/>
+    <alias name="" field="full_id" index="0"/>
+    <alias name="" field="osm_id" index="1"/>
+    <alias name="" field="osm_type" index="2"/>
+    <alias name="" field="drive_through" index="3"/>
+    <alias name="" field="source:name" index="4"/>
+    <alias name="" field="aerialway" index="5"/>
+    <alias name="" field="shop" index="6"/>
+    <alias name="" field="email" index="7"/>
+    <alias name="" field="office" index="8"/>
+    <alias name="" field="description" index="9"/>
+    <alias name="" field="addr:unit" index="10"/>
+    <alias name="" field="addr:floor" index="11"/>
+    <alias name="" field="operator:wikipedia" index="12"/>
+    <alias name="" field="operator:wikidata" index="13"/>
+    <alias name="" field="operator" index="14"/>
+    <alias name="" field="capacity" index="15"/>
+    <alias name="" field="crossing:markings" index="16"/>
+    <alias name="" field="direction" index="17"/>
+    <alias name="" field="short_name" index="18"/>
+    <alias name="" field="opening_hours" index="19"/>
+    <alias name="" field="takeaway" index="20"/>
+    <alias name="" field="ref" index="21"/>
+    <alias name="" field="phone" index="22"/>
+    <alias name="" field="official_name" index="23"/>
+    <alias name="" field="internet_access" index="24"/>
+    <alias name="" field="cuisine" index="25"/>
+    <alias name="" field="brand:wikidata" index="26"/>
+    <alias name="" field="brand" index="27"/>
+    <alias name="" field="branch" index="28"/>
+    <alias name="" field="leaf_type" index="29"/>
+    <alias name="" field="leaf_cycle" index="30"/>
+    <alias name="" field="denotation" index="31"/>
+    <alias name="" field="ele:ft" index="32"/>
+    <alias name="" field="natural" index="33"/>
+    <alias name="" field="man_made" index="34"/>
+    <alias name="" field="tactile_paving" index="35"/>
+    <alias name="" field="barrier" index="36"/>
+    <alias name="" field="website" index="37"/>
+    <alias name="" field="opening_hours:url" index="38"/>
+    <alias name="" field="leisure" index="39"/>
+    <alias name="" field="addr:postcode" index="40"/>
+    <alias name="" field="addr:housenumber" index="41"/>
+    <alias name="" field="crossing_ref" index="42"/>
+    <alias name="" field="traffic_signals:direction" index="43"/>
+    <alias name="" field="crossing" index="44"/>
+    <alias name="" field="crossing:barrier" index="45"/>
+    <alias name="" field="railway" index="46"/>
+    <alias name="" field="crossing:saltire" index="47"/>
+    <alias name="" field="amenity" index="48"/>
+    <alias name="" field="addr:street" index="49"/>
+    <alias name="" field="addr:state" index="50"/>
+    <alias name="" field="addr:city" index="51"/>
+    <alias name="" field="noref" index="52"/>
+    <alias name="" field="wikipedia" index="53"/>
+    <alias name="" field="wikidata" index="54"/>
+    <alias name="" field="source:population" index="55"/>
+    <alias name="" field="population:date" index="56"/>
+    <alias name="" field="population" index="57"/>
+    <alias name="" field="place" index="58"/>
+    <alias name="" field="name:en" index="59"/>
+    <alias name="" field="name" index="60"/>
+    <alias name="" field="gnis:feature_id" index="61"/>
+    <alias name="" field="ele" index="62"/>
+    <alias name="" field="capital" index="63"/>
+    <alias name="" field="traffic_signals" index="64"/>
+    <alias name="" field="highway" index="65"/>
   </aliases>
+  <splitPolicies>
+    <policy field="full_id" policy="Duplicate"/>
+    <policy field="osm_id" policy="Duplicate"/>
+    <policy field="osm_type" policy="Duplicate"/>
+    <policy field="drive_through" policy="Duplicate"/>
+    <policy field="source:name" policy="Duplicate"/>
+    <policy field="aerialway" policy="Duplicate"/>
+    <policy field="shop" policy="Duplicate"/>
+    <policy field="email" policy="Duplicate"/>
+    <policy field="office" policy="Duplicate"/>
+    <policy field="description" policy="Duplicate"/>
+    <policy field="addr:unit" policy="Duplicate"/>
+    <policy field="addr:floor" policy="Duplicate"/>
+    <policy field="operator:wikipedia" policy="Duplicate"/>
+    <policy field="operator:wikidata" policy="Duplicate"/>
+    <policy field="operator" policy="Duplicate"/>
+    <policy field="capacity" policy="Duplicate"/>
+    <policy field="crossing:markings" policy="Duplicate"/>
+    <policy field="direction" policy="Duplicate"/>
+    <policy field="short_name" policy="Duplicate"/>
+    <policy field="opening_hours" policy="Duplicate"/>
+    <policy field="takeaway" policy="Duplicate"/>
+    <policy field="ref" policy="Duplicate"/>
+    <policy field="phone" policy="Duplicate"/>
+    <policy field="official_name" policy="Duplicate"/>
+    <policy field="internet_access" policy="Duplicate"/>
+    <policy field="cuisine" policy="Duplicate"/>
+    <policy field="brand:wikidata" policy="Duplicate"/>
+    <policy field="brand" policy="Duplicate"/>
+    <policy field="branch" policy="Duplicate"/>
+    <policy field="leaf_type" policy="Duplicate"/>
+    <policy field="leaf_cycle" policy="Duplicate"/>
+    <policy field="denotation" policy="Duplicate"/>
+    <policy field="ele:ft" policy="Duplicate"/>
+    <policy field="natural" policy="Duplicate"/>
+    <policy field="man_made" policy="Duplicate"/>
+    <policy field="tactile_paving" policy="Duplicate"/>
+    <policy field="barrier" policy="Duplicate"/>
+    <policy field="website" policy="Duplicate"/>
+    <policy field="opening_hours:url" policy="Duplicate"/>
+    <policy field="leisure" policy="Duplicate"/>
+    <policy field="addr:postcode" policy="Duplicate"/>
+    <policy field="addr:housenumber" policy="Duplicate"/>
+    <policy field="crossing_ref" policy="Duplicate"/>
+    <policy field="traffic_signals:direction" policy="Duplicate"/>
+    <policy field="crossing" policy="Duplicate"/>
+    <policy field="crossing:barrier" policy="Duplicate"/>
+    <policy field="railway" policy="Duplicate"/>
+    <policy field="crossing:saltire" policy="Duplicate"/>
+    <policy field="amenity" policy="Duplicate"/>
+    <policy field="addr:street" policy="Duplicate"/>
+    <policy field="addr:state" policy="Duplicate"/>
+    <policy field="addr:city" policy="Duplicate"/>
+    <policy field="noref" policy="Duplicate"/>
+    <policy field="wikipedia" policy="Duplicate"/>
+    <policy field="wikidata" policy="Duplicate"/>
+    <policy field="source:population" policy="Duplicate"/>
+    <policy field="population:date" policy="Duplicate"/>
+    <policy field="population" policy="Duplicate"/>
+    <policy field="place" policy="Duplicate"/>
+    <policy field="name:en" policy="Duplicate"/>
+    <policy field="name" policy="Duplicate"/>
+    <policy field="gnis:feature_id" policy="Duplicate"/>
+    <policy field="ele" policy="Duplicate"/>
+    <policy field="capital" policy="Duplicate"/>
+    <policy field="traffic_signals" policy="Duplicate"/>
+    <policy field="highway" policy="Duplicate"/>
+  </splitPolicies>
   <defaults>
     <default expression="" field="full_id" applyOnUpdate="0"/>
     <default expression="" field="osm_id" applyOnUpdate="0"/>
     <default expression="" field="osm_type" applyOnUpdate="0"/>
-    <default expression="" field="highway" applyOnUpdate="0"/>
-    <default expression="" field="building" applyOnUpdate="0"/>
-    <default expression="" field="amenity" applyOnUpdate="0"/>
-    <default expression="" field="railway" applyOnUpdate="0"/>
+    <default expression="" field="drive_through" applyOnUpdate="0"/>
+    <default expression="" field="source:name" applyOnUpdate="0"/>
     <default expression="" field="aerialway" applyOnUpdate="0"/>
-    <default expression="" field="natural" applyOnUpdate="0"/>
-    <default expression="" field="ref" applyOnUpdate="0"/>
-    <default expression="" field="motor_vehicle" applyOnUpdate="0"/>
-    <default expression="" field="foot" applyOnUpdate="0"/>
-    <default expression="" field="parking" applyOnUpdate="0"/>
-    <default expression="" field="traffic_sign:forward" applyOnUpdate="0"/>
-    <default expression="" field="side" applyOnUpdate="0"/>
-    <default expression="" field="waste" applyOnUpdate="0"/>
-    <default expression="" field="material" applyOnUpdate="0"/>
-    <default expression="" field="bicycle_parking" applyOnUpdate="0"/>
-    <default expression="" field="service:bicycle:tools" applyOnUpdate="0"/>
-    <default expression="" field="service:bicycle:stand" applyOnUpdate="0"/>
-    <default expression="" field="fee" applyOnUpdate="0"/>
-    <default expression="" field="covered" applyOnUpdate="0"/>
-    <default expression="" field="indoor" applyOnUpdate="0"/>
-    <default expression="" field="capacity" applyOnUpdate="0"/>
+    <default expression="" field="shop" applyOnUpdate="0"/>
+    <default expression="" field="email" applyOnUpdate="0"/>
+    <default expression="" field="office" applyOnUpdate="0"/>
+    <default expression="" field="description" applyOnUpdate="0"/>
+    <default expression="" field="addr:unit" applyOnUpdate="0"/>
+    <default expression="" field="addr:floor" applyOnUpdate="0"/>
+    <default expression="" field="operator:wikipedia" applyOnUpdate="0"/>
+    <default expression="" field="operator:wikidata" applyOnUpdate="0"/>
     <default expression="" field="operator" applyOnUpdate="0"/>
-    <default expression="" field="diet:vegetarian" applyOnUpdate="0"/>
-    <default expression="" field="leisure" applyOnUpdate="0"/>
-    <default expression="" field="surveillance:type" applyOnUpdate="0"/>
-    <default expression="" field="surveillance" applyOnUpdate="0"/>
-    <default expression="" field="man_made" applyOnUpdate="0"/>
-    <default expression="" field="camera:type" applyOnUpdate="0"/>
-    <default expression="" field="camera:mount" applyOnUpdate="0"/>
+    <default expression="" field="capacity" applyOnUpdate="0"/>
+    <default expression="" field="crossing:markings" applyOnUpdate="0"/>
+    <default expression="" field="direction" applyOnUpdate="0"/>
+    <default expression="" field="short_name" applyOnUpdate="0"/>
+    <default expression="" field="opening_hours" applyOnUpdate="0"/>
+    <default expression="" field="takeaway" applyOnUpdate="0"/>
+    <default expression="" field="ref" applyOnUpdate="0"/>
+    <default expression="" field="phone" applyOnUpdate="0"/>
     <default expression="" field="official_name" applyOnUpdate="0"/>
+    <default expression="" field="internet_access" applyOnUpdate="0"/>
+    <default expression="" field="cuisine" applyOnUpdate="0"/>
     <default expression="" field="brand:wikidata" applyOnUpdate="0"/>
     <default expression="" field="brand" applyOnUpdate="0"/>
-    <default expression="" field="brewery" applyOnUpdate="0"/>
-    <default expression="" field="shop" applyOnUpdate="0"/>
-    <default expression="" field="website" applyOnUpdate="0"/>
-    <default expression="" field="toilets:wheelchair" applyOnUpdate="0"/>
-    <default expression="" field="toilets" applyOnUpdate="0"/>
-    <default expression="" field="takeaway" applyOnUpdate="0"/>
-    <default expression="" field="smoking" applyOnUpdate="0"/>
-    <default expression="" field="roof:shape" applyOnUpdate="0"/>
-    <default expression="" field="roof:levels" applyOnUpdate="0"/>
-    <default expression="" field="reservation" applyOnUpdate="0"/>
-    <default expression="" field="payment:visa" applyOnUpdate="0"/>
-    <default expression="" field="payment:mastercard" applyOnUpdate="0"/>
-    <default expression="" field="payment:discover_card" applyOnUpdate="0"/>
-    <default expression="" field="payment:american_express" applyOnUpdate="0"/>
-    <default expression="" field="outdoor_seating" applyOnUpdate="0"/>
-    <default expression="" field="opening_hours" applyOnUpdate="0"/>
-    <default expression="" field="level" applyOnUpdate="0"/>
-    <default expression="" field="internet_access" applyOnUpdate="0"/>
-    <default expression="" field="indoor_seating" applyOnUpdate="0"/>
-    <default expression="" field="highchair" applyOnUpdate="0"/>
-    <default expression="" field="drive_through" applyOnUpdate="0"/>
-    <default expression="" field="delivery" applyOnUpdate="0"/>
-    <default expression="" field="cuisine" applyOnUpdate="0"/>
-    <default expression="" field="check_date" applyOnUpdate="0"/>
-    <default expression="" field="building:material" applyOnUpdate="0"/>
-    <default expression="" field="building:levels" applyOnUpdate="0"/>
-    <default expression="" field="bar" applyOnUpdate="0"/>
-    <default expression="" field="air_conditioning" applyOnUpdate="0"/>
-    <default expression="" field="addr:floor" applyOnUpdate="0"/>
-    <default expression="" field="tourism" applyOnUpdate="0"/>
-    <default expression="" field="information" applyOnUpdate="0"/>
-    <default expression="" field="crossing:markings" applyOnUpdate="0"/>
-    <default expression="" field="crossing:island" applyOnUpdate="0"/>
-    <default expression="" field="crossing" applyOnUpdate="0"/>
-    <default expression="" field="access" applyOnUpdate="0"/>
+    <default expression="" field="branch" applyOnUpdate="0"/>
+    <default expression="" field="leaf_type" applyOnUpdate="0"/>
+    <default expression="" field="leaf_cycle" applyOnUpdate="0"/>
+    <default expression="" field="denotation" applyOnUpdate="0"/>
+    <default expression="" field="ele:ft" applyOnUpdate="0"/>
+    <default expression="" field="natural" applyOnUpdate="0"/>
+    <default expression="" field="man_made" applyOnUpdate="0"/>
+    <default expression="" field="tactile_paving" applyOnUpdate="0"/>
     <default expression="" field="barrier" applyOnUpdate="0"/>
+    <default expression="" field="website" applyOnUpdate="0"/>
+    <default expression="" field="opening_hours:url" applyOnUpdate="0"/>
+    <default expression="" field="leisure" applyOnUpdate="0"/>
+    <default expression="" field="addr:postcode" applyOnUpdate="0"/>
+    <default expression="" field="addr:housenumber" applyOnUpdate="0"/>
+    <default expression="" field="crossing_ref" applyOnUpdate="0"/>
+    <default expression="" field="traffic_signals:direction" applyOnUpdate="0"/>
+    <default expression="" field="crossing" applyOnUpdate="0"/>
     <default expression="" field="crossing:barrier" applyOnUpdate="0"/>
-    <default expression="" field="wheelchair" applyOnUpdate="0"/>
-    <default expression="" field="train" applyOnUpdate="0"/>
-    <default expression="" field="aerialway:access" applyOnUpdate="0"/>
-    <default expression="" field="direction" applyOnUpdate="0"/>
-    <default expression="" field="bus" applyOnUpdate="0"/>
-    <default expression="" field="denomination" applyOnUpdate="0"/>
+    <default expression="" field="railway" applyOnUpdate="0"/>
+    <default expression="" field="crossing:saltire" applyOnUpdate="0"/>
+    <default expression="" field="amenity" applyOnUpdate="0"/>
+    <default expression="" field="addr:street" applyOnUpdate="0"/>
+    <default expression="" field="addr:state" applyOnUpdate="0"/>
+    <default expression="" field="addr:city" applyOnUpdate="0"/>
+    <default expression="" field="noref" applyOnUpdate="0"/>
     <default expression="" field="wikipedia" applyOnUpdate="0"/>
     <default expression="" field="wikidata" applyOnUpdate="0"/>
-    <default expression="" field="religion" applyOnUpdate="0"/>
+    <default expression="" field="source:population" applyOnUpdate="0"/>
+    <default expression="" field="population:date" applyOnUpdate="0"/>
+    <default expression="" field="population" applyOnUpdate="0"/>
+    <default expression="" field="place" applyOnUpdate="0"/>
+    <default expression="" field="name:en" applyOnUpdate="0"/>
     <default expression="" field="name" applyOnUpdate="0"/>
-    <default expression="" field="gnis:state_id" applyOnUpdate="0"/>
     <default expression="" field="gnis:feature_id" applyOnUpdate="0"/>
-    <default expression="" field="gnis:edited" applyOnUpdate="0"/>
-    <default expression="" field="gnis:created" applyOnUpdate="0"/>
-    <default expression="" field="gnis:county_id" applyOnUpdate="0"/>
     <default expression="" field="ele" applyOnUpdate="0"/>
-    <default expression="" field="description:wikidata" applyOnUpdate="0"/>
-    <default expression="" field="description:de" applyOnUpdate="0"/>
-    <default expression="" field="description" applyOnUpdate="0"/>
-    <default expression="" field="public_transport" applyOnUpdate="0"/>
+    <default expression="" field="capital" applyOnUpdate="0"/>
+    <default expression="" field="traffic_signals" applyOnUpdate="0"/>
+    <default expression="" field="highway" applyOnUpdate="0"/>
   </defaults>
   <constraints>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="full_id" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="osm_id" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="osm_type" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="highway" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="building" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="amenity" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="railway" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="aerialway" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="natural" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="ref" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="motor_vehicle" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="foot" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="parking" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="traffic_sign:forward" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="side" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="waste" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="material" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="bicycle_parking" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="service:bicycle:tools" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="service:bicycle:stand" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="fee" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="covered" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="indoor" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="capacity" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="operator" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="diet:vegetarian" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="leisure" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="surveillance:type" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="surveillance" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="man_made" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="camera:type" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="camera:mount" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="official_name" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="brand:wikidata" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="brand" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="brewery" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="shop" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="website" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="toilets:wheelchair" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="toilets" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="takeaway" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="smoking" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="roof:shape" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="roof:levels" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="reservation" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="payment:visa" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="payment:mastercard" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="payment:discover_card" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="payment:american_express" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="outdoor_seating" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="opening_hours" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="level" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="internet_access" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="indoor_seating" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="highchair" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="drive_through" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="delivery" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="cuisine" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="check_date" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="building:material" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="building:levels" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="bar" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="air_conditioning" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="addr:floor" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="tourism" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="information" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="crossing:markings" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="crossing:island" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="crossing" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="access" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="barrier" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="crossing:barrier" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="wheelchair" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="train" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="aerialway:access" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="direction" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="bus" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="denomination" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="wikipedia" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="wikidata" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="religion" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="name" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="gnis:state_id" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="gnis:feature_id" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="gnis:edited" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="gnis:created" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="gnis:county_id" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="ele" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="description:wikidata" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="description:de" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="description" constraints="0"/>
-    <constraint unique_strength="0" exp_strength="0" notnull_strength="0" field="public_transport" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="full_id" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="osm_id" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="osm_type" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="drive_through" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="source:name" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="aerialway" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="shop" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="email" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="office" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="description" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="addr:unit" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="addr:floor" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="operator:wikipedia" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="operator:wikidata" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="operator" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="capacity" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="crossing:markings" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="direction" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="short_name" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="opening_hours" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="takeaway" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="ref" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="phone" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="official_name" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="internet_access" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="cuisine" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="brand:wikidata" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="brand" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="branch" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="leaf_type" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="leaf_cycle" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="denotation" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="ele:ft" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="natural" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="man_made" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="tactile_paving" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="barrier" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="website" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="opening_hours:url" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="leisure" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="addr:postcode" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="addr:housenumber" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="crossing_ref" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="traffic_signals:direction" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="crossing" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="crossing:barrier" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="railway" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="crossing:saltire" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="amenity" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="addr:street" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="addr:state" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="addr:city" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="noref" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="wikipedia" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="wikidata" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="source:population" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="population:date" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="population" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="place" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="name:en" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="name" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="gnis:feature_id" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="ele" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="capital" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="traffic_signals" unique_strength="0" constraints="0"/>
+    <constraint exp_strength="0" notnull_strength="0" field="highway" unique_strength="0" constraints="0"/>
   </constraints>
   <constraintExpressions>
-    <constraint desc="" field="full_id" exp=""/>
-    <constraint desc="" field="osm_id" exp=""/>
-    <constraint desc="" field="osm_type" exp=""/>
-    <constraint desc="" field="highway" exp=""/>
-    <constraint desc="" field="building" exp=""/>
-    <constraint desc="" field="amenity" exp=""/>
-    <constraint desc="" field="railway" exp=""/>
-    <constraint desc="" field="aerialway" exp=""/>
-    <constraint desc="" field="natural" exp=""/>
-    <constraint desc="" field="ref" exp=""/>
-    <constraint desc="" field="motor_vehicle" exp=""/>
-    <constraint desc="" field="foot" exp=""/>
-    <constraint desc="" field="parking" exp=""/>
-    <constraint desc="" field="traffic_sign:forward" exp=""/>
-    <constraint desc="" field="side" exp=""/>
-    <constraint desc="" field="waste" exp=""/>
-    <constraint desc="" field="material" exp=""/>
-    <constraint desc="" field="bicycle_parking" exp=""/>
-    <constraint desc="" field="service:bicycle:tools" exp=""/>
-    <constraint desc="" field="service:bicycle:stand" exp=""/>
-    <constraint desc="" field="fee" exp=""/>
-    <constraint desc="" field="covered" exp=""/>
-    <constraint desc="" field="indoor" exp=""/>
-    <constraint desc="" field="capacity" exp=""/>
-    <constraint desc="" field="operator" exp=""/>
-    <constraint desc="" field="diet:vegetarian" exp=""/>
-    <constraint desc="" field="leisure" exp=""/>
-    <constraint desc="" field="surveillance:type" exp=""/>
-    <constraint desc="" field="surveillance" exp=""/>
-    <constraint desc="" field="man_made" exp=""/>
-    <constraint desc="" field="camera:type" exp=""/>
-    <constraint desc="" field="camera:mount" exp=""/>
-    <constraint desc="" field="official_name" exp=""/>
-    <constraint desc="" field="brand:wikidata" exp=""/>
-    <constraint desc="" field="brand" exp=""/>
-    <constraint desc="" field="brewery" exp=""/>
-    <constraint desc="" field="shop" exp=""/>
-    <constraint desc="" field="website" exp=""/>
-    <constraint desc="" field="toilets:wheelchair" exp=""/>
-    <constraint desc="" field="toilets" exp=""/>
-    <constraint desc="" field="takeaway" exp=""/>
-    <constraint desc="" field="smoking" exp=""/>
-    <constraint desc="" field="roof:shape" exp=""/>
-    <constraint desc="" field="roof:levels" exp=""/>
-    <constraint desc="" field="reservation" exp=""/>
-    <constraint desc="" field="payment:visa" exp=""/>
-    <constraint desc="" field="payment:mastercard" exp=""/>
-    <constraint desc="" field="payment:discover_card" exp=""/>
-    <constraint desc="" field="payment:american_express" exp=""/>
-    <constraint desc="" field="outdoor_seating" exp=""/>
-    <constraint desc="" field="opening_hours" exp=""/>
-    <constraint desc="" field="level" exp=""/>
-    <constraint desc="" field="internet_access" exp=""/>
-    <constraint desc="" field="indoor_seating" exp=""/>
-    <constraint desc="" field="highchair" exp=""/>
-    <constraint desc="" field="drive_through" exp=""/>
-    <constraint desc="" field="delivery" exp=""/>
-    <constraint desc="" field="cuisine" exp=""/>
-    <constraint desc="" field="check_date" exp=""/>
-    <constraint desc="" field="building:material" exp=""/>
-    <constraint desc="" field="building:levels" exp=""/>
-    <constraint desc="" field="bar" exp=""/>
-    <constraint desc="" field="air_conditioning" exp=""/>
-    <constraint desc="" field="addr:floor" exp=""/>
-    <constraint desc="" field="tourism" exp=""/>
-    <constraint desc="" field="information" exp=""/>
-    <constraint desc="" field="crossing:markings" exp=""/>
-    <constraint desc="" field="crossing:island" exp=""/>
-    <constraint desc="" field="crossing" exp=""/>
-    <constraint desc="" field="access" exp=""/>
-    <constraint desc="" field="barrier" exp=""/>
-    <constraint desc="" field="crossing:barrier" exp=""/>
-    <constraint desc="" field="wheelchair" exp=""/>
-    <constraint desc="" field="train" exp=""/>
-    <constraint desc="" field="aerialway:access" exp=""/>
-    <constraint desc="" field="direction" exp=""/>
-    <constraint desc="" field="bus" exp=""/>
-    <constraint desc="" field="denomination" exp=""/>
-    <constraint desc="" field="wikipedia" exp=""/>
-    <constraint desc="" field="wikidata" exp=""/>
-    <constraint desc="" field="religion" exp=""/>
-    <constraint desc="" field="name" exp=""/>
-    <constraint desc="" field="gnis:state_id" exp=""/>
-    <constraint desc="" field="gnis:feature_id" exp=""/>
-    <constraint desc="" field="gnis:edited" exp=""/>
-    <constraint desc="" field="gnis:created" exp=""/>
-    <constraint desc="" field="gnis:county_id" exp=""/>
-    <constraint desc="" field="ele" exp=""/>
-    <constraint desc="" field="description:wikidata" exp=""/>
-    <constraint desc="" field="description:de" exp=""/>
-    <constraint desc="" field="description" exp=""/>
-    <constraint desc="" field="public_transport" exp=""/>
+    <constraint desc="" exp="" field="full_id"/>
+    <constraint desc="" exp="" field="osm_id"/>
+    <constraint desc="" exp="" field="osm_type"/>
+    <constraint desc="" exp="" field="drive_through"/>
+    <constraint desc="" exp="" field="source:name"/>
+    <constraint desc="" exp="" field="aerialway"/>
+    <constraint desc="" exp="" field="shop"/>
+    <constraint desc="" exp="" field="email"/>
+    <constraint desc="" exp="" field="office"/>
+    <constraint desc="" exp="" field="description"/>
+    <constraint desc="" exp="" field="addr:unit"/>
+    <constraint desc="" exp="" field="addr:floor"/>
+    <constraint desc="" exp="" field="operator:wikipedia"/>
+    <constraint desc="" exp="" field="operator:wikidata"/>
+    <constraint desc="" exp="" field="operator"/>
+    <constraint desc="" exp="" field="capacity"/>
+    <constraint desc="" exp="" field="crossing:markings"/>
+    <constraint desc="" exp="" field="direction"/>
+    <constraint desc="" exp="" field="short_name"/>
+    <constraint desc="" exp="" field="opening_hours"/>
+    <constraint desc="" exp="" field="takeaway"/>
+    <constraint desc="" exp="" field="ref"/>
+    <constraint desc="" exp="" field="phone"/>
+    <constraint desc="" exp="" field="official_name"/>
+    <constraint desc="" exp="" field="internet_access"/>
+    <constraint desc="" exp="" field="cuisine"/>
+    <constraint desc="" exp="" field="brand:wikidata"/>
+    <constraint desc="" exp="" field="brand"/>
+    <constraint desc="" exp="" field="branch"/>
+    <constraint desc="" exp="" field="leaf_type"/>
+    <constraint desc="" exp="" field="leaf_cycle"/>
+    <constraint desc="" exp="" field="denotation"/>
+    <constraint desc="" exp="" field="ele:ft"/>
+    <constraint desc="" exp="" field="natural"/>
+    <constraint desc="" exp="" field="man_made"/>
+    <constraint desc="" exp="" field="tactile_paving"/>
+    <constraint desc="" exp="" field="barrier"/>
+    <constraint desc="" exp="" field="website"/>
+    <constraint desc="" exp="" field="opening_hours:url"/>
+    <constraint desc="" exp="" field="leisure"/>
+    <constraint desc="" exp="" field="addr:postcode"/>
+    <constraint desc="" exp="" field="addr:housenumber"/>
+    <constraint desc="" exp="" field="crossing_ref"/>
+    <constraint desc="" exp="" field="traffic_signals:direction"/>
+    <constraint desc="" exp="" field="crossing"/>
+    <constraint desc="" exp="" field="crossing:barrier"/>
+    <constraint desc="" exp="" field="railway"/>
+    <constraint desc="" exp="" field="crossing:saltire"/>
+    <constraint desc="" exp="" field="amenity"/>
+    <constraint desc="" exp="" field="addr:street"/>
+    <constraint desc="" exp="" field="addr:state"/>
+    <constraint desc="" exp="" field="addr:city"/>
+    <constraint desc="" exp="" field="noref"/>
+    <constraint desc="" exp="" field="wikipedia"/>
+    <constraint desc="" exp="" field="wikidata"/>
+    <constraint desc="" exp="" field="source:population"/>
+    <constraint desc="" exp="" field="population:date"/>
+    <constraint desc="" exp="" field="population"/>
+    <constraint desc="" exp="" field="place"/>
+    <constraint desc="" exp="" field="name:en"/>
+    <constraint desc="" exp="" field="name"/>
+    <constraint desc="" exp="" field="gnis:feature_id"/>
+    <constraint desc="" exp="" field="ele"/>
+    <constraint desc="" exp="" field="capital"/>
+    <constraint desc="" exp="" field="traffic_signals"/>
+    <constraint desc="" exp="" field="highway"/>
   </constraintExpressions>
   <expressionfields/>
   <attributeactions>
-    <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
-    <actionsetting action="http://www.openstreetmap.org/browse/[% &quot;osm_type&quot; %]/[% &quot;osm_id&quot; %]" notificationMessage="" shortTitle="OpenStreetMap Browser" isEnabledOnlyWhenEditable="0" icon="" name="OpenStreetMap Browser" id="{d5b4a1d6-26e9-45c3-808c-1948abea5329}" capture="0" type="5">
-      <actionScope id="Field"/>
+    <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+    <actionsetting capture="0" name="OpenStreetMap Browser" id="{f0159cdd-0f22-4b9c-aa49-aa74b053a93a}" icon="" action="http://www.openstreetmap.org/browse/[% &quot;osm_type&quot; %]/[% &quot;osm_id&quot; %]" isEnabledOnlyWhenEditable="0" type="5" notificationMessage="" shortTitle="OpenStreetMap Browser">
       <actionScope id="Canvas"/>
       <actionScope id="Feature"/>
-    </actionsetting>
-    <actionsetting action="from QuickOSM.core.actions import Actions;Actions.run(&quot;josm&quot;,&quot;[% &quot;full_id&quot; %]&quot;)" notificationMessage="" shortTitle="JOSM" isEnabledOnlyWhenEditable="0" icon="C:\Users\jwitc\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\QuickOSM\resources\icons\josm_icon.svg" name="JOSM" id="{c4cd4c94-bf17-461f-8f92-ca8b3a1aa79a}" capture="0" type="1">
       <actionScope id="Field"/>
+    </actionsetting>
+    <actionsetting capture="0" name="JOSM" id="{00bf1a9e-5143-48e3-a41f-f21156600383}" icon="C:\Users\jwitc\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\QuickOSM\resources\icons\josm_icon.svg" action="from QuickOSM.core.actions import Actions;Actions.run(&quot;josm&quot;,&quot;[% &quot;full_id&quot; %]&quot;)" isEnabledOnlyWhenEditable="0" type="1" notificationMessage="" shortTitle="JOSM">
       <actionScope id="Canvas"/>
       <actionScope id="Feature"/>
-    </actionsetting>
-    <actionsetting action="http://www.openstreetmap.org/edit?[% &quot;osm_type&quot; %]=[% &quot;osm_id&quot; %]" notificationMessage="" shortTitle="User default editor" isEnabledOnlyWhenEditable="0" icon="" name="User default editor" id="{af4ba793-d148-4eef-98fb-c1cc3318b821}" capture="0" type="5">
       <actionScope id="Field"/>
+    </actionsetting>
+    <actionsetting capture="0" name="User default editor" id="{4d461bbb-fe19-46dc-9041-83c2b08e24cc}" icon="" action="http://www.openstreetmap.org/edit?[% &quot;osm_type&quot; %]=[% &quot;osm_id&quot; %]" isEnabledOnlyWhenEditable="0" type="5" notificationMessage="" shortTitle="User default editor">
       <actionScope id="Canvas"/>
       <actionScope id="Feature"/>
-    </actionsetting>
-    <actionsetting action="from QuickOSM.core.actions import Actions;Actions.run(&quot;website&quot;,&quot;[% &quot;website&quot; %]&quot;)" notificationMessage="" shortTitle="website" isEnabledOnlyWhenEditable="0" icon="C:\Users\jwitc\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\QuickOSM\resources\icons\external_link.png" name="website" id="{b4bffcaf-238c-4069-84fd-95e0c36161c5}" capture="0" type="1">
       <actionScope id="Field"/>
+    </actionsetting>
+    <actionsetting capture="0" name="website" id="{0f379225-8649-4cd5-85f1-635adeda02e0}" icon="C:\Users\jwitc\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\QuickOSM\resources\icons\external_link.png" action="from QuickOSM.core.actions import Actions;Actions.run(&quot;website&quot;,&quot;[% &quot;website&quot; %]&quot;)" isEnabledOnlyWhenEditable="0" type="1" notificationMessage="" shortTitle="website">
       <actionScope id="Canvas"/>
       <actionScope id="Feature"/>
+      <actionScope id="Field"/>
     </actionsetting>
-    <actionsetting action="from QuickOSM.core.actions import Actions;Actions.run_reload(layer_name=&quot;landuse_natural&quot;)" notificationMessage="" shortTitle="Reload the query in a new file" isEnabledOnlyWhenEditable="0" icon="" name="Reload the query in a new file" id="{36c28720-07f8-4ceb-9df5-b77510388fb2}" capture="0" type="1">
+    <actionsetting capture="0" name="Reload the query in a new file" id="{b429d21b-e284-4a24-9cea-c5bccb49b748}" icon="" action="from QuickOSM.core.actions import Actions;Actions.run_reload(layer_name=&quot;landuse_natural&quot;)" isEnabledOnlyWhenEditable="0" type="1" notificationMessage="" shortTitle="Reload the query in a new file">
       <actionScope id="Layer"/>
     </actionsetting>
   </attributeactions>
-  <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
+  <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
     <columns>
-      <column hidden="0" width="-1" name="full_id" type="field"/>
-      <column hidden="0" width="-1" name="osm_id" type="field"/>
-      <column hidden="0" width="-1" name="osm_type" type="field"/>
-      <column hidden="0" width="-1" name="amenity" type="field"/>
-      <column hidden="0" width="-1" name="aerialway" type="field"/>
-      <column hidden="0" width="-1" name="natural" type="field"/>
-      <column hidden="0" width="-1" name="highway" type="field"/>
-      <column hidden="0" width="-1" name="name" type="field"/>
-      <column hidden="0" width="-1" name="barrier" type="field"/>
-      <column hidden="0" width="-1" name="crossing" type="field"/>
-      <column hidden="1" width="-1" type="actions"/>
-      <column hidden="0" width="-1" name="ele" type="field"/>
-      <column hidden="0" width="-1" name="building" type="field"/>
-      <column hidden="0" width="-1" name="railway" type="field"/>
-      <column hidden="0" width="-1" name="ref" type="field"/>
-      <column hidden="0" width="-1" name="motor_vehicle" type="field"/>
-      <column hidden="0" width="-1" name="foot" type="field"/>
-      <column hidden="0" width="-1" name="parking" type="field"/>
-      <column hidden="0" width="-1" name="traffic_sign:forward" type="field"/>
-      <column hidden="0" width="-1" name="side" type="field"/>
-      <column hidden="0" width="-1" name="waste" type="field"/>
-      <column hidden="0" width="-1" name="material" type="field"/>
-      <column hidden="0" width="-1" name="bicycle_parking" type="field"/>
-      <column hidden="0" width="-1" name="service:bicycle:tools" type="field"/>
-      <column hidden="0" width="-1" name="service:bicycle:stand" type="field"/>
-      <column hidden="0" width="-1" name="fee" type="field"/>
-      <column hidden="0" width="-1" name="covered" type="field"/>
-      <column hidden="0" width="-1" name="indoor" type="field"/>
-      <column hidden="0" width="-1" name="capacity" type="field"/>
-      <column hidden="0" width="-1" name="operator" type="field"/>
-      <column hidden="0" width="-1" name="diet:vegetarian" type="field"/>
-      <column hidden="0" width="-1" name="leisure" type="field"/>
-      <column hidden="0" width="-1" name="surveillance:type" type="field"/>
-      <column hidden="0" width="-1" name="surveillance" type="field"/>
-      <column hidden="0" width="-1" name="man_made" type="field"/>
-      <column hidden="0" width="-1" name="camera:type" type="field"/>
-      <column hidden="0" width="-1" name="camera:mount" type="field"/>
-      <column hidden="0" width="-1" name="official_name" type="field"/>
-      <column hidden="0" width="-1" name="brand:wikidata" type="field"/>
-      <column hidden="0" width="-1" name="brand" type="field"/>
-      <column hidden="0" width="-1" name="brewery" type="field"/>
-      <column hidden="0" width="-1" name="shop" type="field"/>
-      <column hidden="0" width="-1" name="website" type="field"/>
-      <column hidden="0" width="-1" name="toilets:wheelchair" type="field"/>
-      <column hidden="0" width="-1" name="toilets" type="field"/>
-      <column hidden="0" width="-1" name="takeaway" type="field"/>
-      <column hidden="0" width="-1" name="smoking" type="field"/>
-      <column hidden="0" width="-1" name="roof:shape" type="field"/>
-      <column hidden="0" width="-1" name="roof:levels" type="field"/>
-      <column hidden="0" width="-1" name="reservation" type="field"/>
-      <column hidden="0" width="-1" name="payment:visa" type="field"/>
-      <column hidden="0" width="-1" name="payment:mastercard" type="field"/>
-      <column hidden="0" width="-1" name="payment:discover_card" type="field"/>
-      <column hidden="0" width="-1" name="payment:american_express" type="field"/>
-      <column hidden="0" width="-1" name="outdoor_seating" type="field"/>
-      <column hidden="0" width="-1" name="opening_hours" type="field"/>
-      <column hidden="0" width="-1" name="level" type="field"/>
-      <column hidden="0" width="-1" name="internet_access" type="field"/>
-      <column hidden="0" width="-1" name="indoor_seating" type="field"/>
-      <column hidden="0" width="-1" name="highchair" type="field"/>
-      <column hidden="0" width="-1" name="drive_through" type="field"/>
-      <column hidden="0" width="-1" name="delivery" type="field"/>
-      <column hidden="0" width="-1" name="cuisine" type="field"/>
-      <column hidden="0" width="-1" name="check_date" type="field"/>
-      <column hidden="0" width="-1" name="building:material" type="field"/>
-      <column hidden="0" width="-1" name="building:levels" type="field"/>
-      <column hidden="0" width="-1" name="bar" type="field"/>
-      <column hidden="0" width="-1" name="air_conditioning" type="field"/>
-      <column hidden="0" width="-1" name="addr:floor" type="field"/>
-      <column hidden="0" width="-1" name="tourism" type="field"/>
-      <column hidden="0" width="-1" name="information" type="field"/>
-      <column hidden="0" width="-1" name="crossing:markings" type="field"/>
-      <column hidden="0" width="-1" name="crossing:island" type="field"/>
-      <column hidden="0" width="-1" name="access" type="field"/>
-      <column hidden="0" width="-1" name="crossing:barrier" type="field"/>
-      <column hidden="0" width="-1" name="wheelchair" type="field"/>
-      <column hidden="0" width="-1" name="train" type="field"/>
-      <column hidden="0" width="-1" name="aerialway:access" type="field"/>
-      <column hidden="0" width="-1" name="direction" type="field"/>
-      <column hidden="0" width="-1" name="bus" type="field"/>
-      <column hidden="0" width="-1" name="denomination" type="field"/>
-      <column hidden="0" width="-1" name="wikipedia" type="field"/>
-      <column hidden="0" width="-1" name="wikidata" type="field"/>
-      <column hidden="0" width="-1" name="religion" type="field"/>
-      <column hidden="0" width="-1" name="gnis:state_id" type="field"/>
-      <column hidden="0" width="-1" name="gnis:feature_id" type="field"/>
-      <column hidden="0" width="-1" name="gnis:edited" type="field"/>
-      <column hidden="0" width="-1" name="gnis:created" type="field"/>
-      <column hidden="0" width="-1" name="gnis:county_id" type="field"/>
-      <column hidden="0" width="-1" name="description:wikidata" type="field"/>
-      <column hidden="0" width="-1" name="description:de" type="field"/>
-      <column hidden="0" width="-1" name="description" type="field"/>
-      <column hidden="0" width="-1" name="public_transport" type="field"/>
+      <column name="full_id" width="-1" hidden="0" type="field"/>
+      <column name="osm_id" width="-1" hidden="0" type="field"/>
+      <column name="osm_type" width="-1" hidden="0" type="field"/>
+      <column name="amenity" width="-1" hidden="0" type="field"/>
+      <column name="aerialway" width="-1" hidden="0" type="field"/>
+      <column name="natural" width="-1" hidden="0" type="field"/>
+      <column name="highway" width="-1" hidden="0" type="field"/>
+      <column name="name" width="-1" hidden="0" type="field"/>
+      <column name="barrier" width="-1" hidden="0" type="field"/>
+      <column name="crossing" width="-1" hidden="0" type="field"/>
+      <column width="-1" hidden="1" type="actions"/>
+      <column name="ele" width="-1" hidden="0" type="field"/>
+      <column name="capacity" width="-1" hidden="0" type="field"/>
+      <column name="man_made" width="-1" hidden="0" type="field"/>
+      <column name="drive_through" width="-1" hidden="0" type="field"/>
+      <column name="source:name" width="-1" hidden="0" type="field"/>
+      <column name="shop" width="-1" hidden="0" type="field"/>
+      <column name="email" width="-1" hidden="0" type="field"/>
+      <column name="office" width="-1" hidden="0" type="field"/>
+      <column name="description" width="-1" hidden="0" type="field"/>
+      <column name="addr:unit" width="-1" hidden="0" type="field"/>
+      <column name="addr:floor" width="-1" hidden="0" type="field"/>
+      <column name="operator:wikipedia" width="-1" hidden="0" type="field"/>
+      <column name="operator:wikidata" width="-1" hidden="0" type="field"/>
+      <column name="operator" width="-1" hidden="0" type="field"/>
+      <column name="crossing:markings" width="-1" hidden="0" type="field"/>
+      <column name="direction" width="-1" hidden="0" type="field"/>
+      <column name="short_name" width="-1" hidden="0" type="field"/>
+      <column name="opening_hours" width="-1" hidden="0" type="field"/>
+      <column name="takeaway" width="-1" hidden="0" type="field"/>
+      <column name="ref" width="-1" hidden="0" type="field"/>
+      <column name="phone" width="-1" hidden="0" type="field"/>
+      <column name="official_name" width="-1" hidden="0" type="field"/>
+      <column name="internet_access" width="-1" hidden="0" type="field"/>
+      <column name="brand:wikidata" width="-1" hidden="0" type="field"/>
+      <column name="brand" width="-1" hidden="0" type="field"/>
+      <column name="branch" width="-1" hidden="0" type="field"/>
+      <column name="leaf_type" width="-1" hidden="0" type="field"/>
+      <column name="leaf_cycle" width="-1" hidden="0" type="field"/>
+      <column name="denotation" width="-1" hidden="0" type="field"/>
+      <column name="ele:ft" width="-1" hidden="0" type="field"/>
+      <column name="tactile_paving" width="-1" hidden="0" type="field"/>
+      <column name="website" width="-1" hidden="0" type="field"/>
+      <column name="opening_hours:url" width="-1" hidden="0" type="field"/>
+      <column name="leisure" width="-1" hidden="0" type="field"/>
+      <column name="addr:postcode" width="-1" hidden="0" type="field"/>
+      <column name="addr:housenumber" width="-1" hidden="0" type="field"/>
+      <column name="crossing_ref" width="-1" hidden="0" type="field"/>
+      <column name="traffic_signals:direction" width="-1" hidden="0" type="field"/>
+      <column name="crossing:barrier" width="-1" hidden="0" type="field"/>
+      <column name="railway" width="-1" hidden="0" type="field"/>
+      <column name="crossing:saltire" width="-1" hidden="0" type="field"/>
+      <column name="addr:street" width="-1" hidden="0" type="field"/>
+      <column name="addr:state" width="-1" hidden="0" type="field"/>
+      <column name="addr:city" width="-1" hidden="0" type="field"/>
+      <column name="noref" width="-1" hidden="0" type="field"/>
+      <column name="wikipedia" width="-1" hidden="0" type="field"/>
+      <column name="wikidata" width="-1" hidden="0" type="field"/>
+      <column name="source:population" width="-1" hidden="0" type="field"/>
+      <column name="population:date" width="-1" hidden="0" type="field"/>
+      <column name="population" width="-1" hidden="0" type="field"/>
+      <column name="place" width="-1" hidden="0" type="field"/>
+      <column name="name:en" width="-1" hidden="0" type="field"/>
+      <column name="gnis:feature_id" width="-1" hidden="0" type="field"/>
+      <column name="capital" width="-1" hidden="0" type="field"/>
+      <column name="traffic_signals" width="-1" hidden="0" type="field"/>
+      <column name="cuisine" width="-1" hidden="0" type="field"/>
     </columns>
   </attributetableconfig>
   <conditionalstyles>
@@ -1748,125 +1528,195 @@ def my_form_open(dialog, layer, feature):
   <featformsuppress>0</featformsuppress>
   <editorlayout>generatedlayout</editorlayout>
   <editable>
-    <field editable="1" name="access"/>
-    <field editable="1" name="addr:city"/>
-    <field editable="1" name="addr:floor"/>
-    <field editable="1" name="addr:housenumber"/>
-    <field editable="1" name="addr:state"/>
-    <field editable="1" name="addr:street"/>
-    <field editable="1" name="aerialway"/>
-    <field editable="1" name="aerialway:access"/>
-    <field editable="1" name="air_conditioning"/>
-    <field editable="1" name="amenity"/>
-    <field editable="1" name="bar"/>
-    <field editable="1" name="barrier"/>
-    <field editable="1" name="bicycle_parking"/>
-    <field editable="1" name="brand"/>
-    <field editable="1" name="brand:wikidata"/>
-    <field editable="1" name="brewery"/>
-    <field editable="1" name="building"/>
-    <field editable="1" name="building:levels"/>
-    <field editable="1" name="building:material"/>
-    <field editable="1" name="bus"/>
-    <field editable="1" name="camera:mount"/>
-    <field editable="1" name="camera:type"/>
-    <field editable="1" name="capacity"/>
-    <field editable="1" name="check_date"/>
-    <field editable="1" name="covered"/>
-    <field editable="1" name="crossing"/>
-    <field editable="1" name="crossing:barrier"/>
-    <field editable="1" name="crossing:island"/>
-    <field editable="1" name="crossing:markings"/>
-    <field editable="1" name="cuisine"/>
-    <field editable="1" name="delivery"/>
-    <field editable="1" name="denomination"/>
-    <field editable="1" name="denotation"/>
-    <field editable="1" name="description"/>
-    <field editable="1" name="description:de"/>
-    <field editable="1" name="description:wikidata"/>
-    <field editable="1" name="diet:vegetarian"/>
-    <field editable="1" name="direction"/>
-    <field editable="1" name="drive_through"/>
-    <field editable="1" name="ele"/>
-    <field editable="1" name="ele:ft"/>
-    <field editable="1" name="fee"/>
-    <field editable="1" name="foot"/>
-    <field editable="1" name="full_id"/>
-    <field editable="1" name="gnis:county_id"/>
-    <field editable="1" name="gnis:created"/>
-    <field editable="1" name="gnis:edited"/>
-    <field editable="1" name="gnis:feature_id"/>
-    <field editable="1" name="gnis:state_id"/>
-    <field editable="1" name="highchair"/>
-    <field editable="1" name="highway"/>
-    <field editable="1" name="indoor"/>
-    <field editable="1" name="indoor_seating"/>
-    <field editable="1" name="information"/>
-    <field editable="1" name="internet_access"/>
-    <field editable="1" name="leaf_cycle"/>
-    <field editable="1" name="leaf_type"/>
-    <field editable="1" name="leisure"/>
-    <field editable="1" name="level"/>
-    <field editable="1" name="locked"/>
-    <field editable="1" name="man_made"/>
-    <field editable="1" name="material"/>
-    <field editable="1" name="motor_vehicle"/>
-    <field editable="1" name="name"/>
-    <field editable="1" name="natural"/>
-    <field editable="1" name="official_name"/>
-    <field editable="1" name="opening_hours"/>
-    <field editable="1" name="operator"/>
-    <field editable="1" name="osm_id"/>
-    <field editable="1" name="osm_type"/>
-    <field editable="1" name="outdoor_seating"/>
-    <field editable="1" name="parking"/>
-    <field editable="1" name="payment:american_express"/>
-    <field editable="1" name="payment:discover_card"/>
-    <field editable="1" name="payment:mastercard"/>
-    <field editable="1" name="payment:visa"/>
-    <field editable="1" name="phone"/>
-    <field editable="1" name="public_transport"/>
-    <field editable="1" name="railway"/>
-    <field editable="1" name="ref"/>
-    <field editable="1" name="religion"/>
-    <field editable="1" name="reservation"/>
-    <field editable="1" name="roof:levels"/>
-    <field editable="1" name="roof:shape"/>
-    <field editable="1" name="service:bicycle:stand"/>
-    <field editable="1" name="service:bicycle:tools"/>
-    <field editable="1" name="shelter_type"/>
-    <field editable="1" name="shop"/>
-    <field editable="1" name="side"/>
-    <field editable="1" name="smoking"/>
-    <field editable="1" name="stop"/>
-    <field editable="1" name="surveillance"/>
-    <field editable="1" name="surveillance:type"/>
-    <field editable="1" name="takeaway"/>
-    <field editable="1" name="toilets"/>
-    <field editable="1" name="toilets:wheelchair"/>
-    <field editable="1" name="tourism"/>
-    <field editable="1" name="traffic_sign:forward"/>
-    <field editable="1" name="train"/>
-    <field editable="1" name="waste"/>
-    <field editable="1" name="website"/>
-    <field editable="1" name="wheelchair"/>
-    <field editable="1" name="wikidata"/>
-    <field editable="1" name="wikipedia"/>
+    <field name="access" editable="1"/>
+    <field name="addr:city" editable="1"/>
+    <field name="addr:country" editable="1"/>
+    <field name="addr:floor" editable="1"/>
+    <field name="addr:housenumber" editable="1"/>
+    <field name="addr:postcode" editable="1"/>
+    <field name="addr:state" editable="1"/>
+    <field name="addr:street" editable="1"/>
+    <field name="addr:unit" editable="1"/>
+    <field name="aerialway" editable="1"/>
+    <field name="aerialway:access" editable="1"/>
+    <field name="aeroway" editable="1"/>
+    <field name="air_conditioning" editable="1"/>
+    <field name="alt_name" editable="1"/>
+    <field name="amenity" editable="1"/>
+    <field name="backcountry" editable="1"/>
+    <field name="backrest" editable="1"/>
+    <field name="bar" editable="1"/>
+    <field name="barrier" editable="1"/>
+    <field name="bicycle_parking" editable="1"/>
+    <field name="board_type" editable="1"/>
+    <field name="branch" editable="1"/>
+    <field name="brand" editable="1"/>
+    <field name="brand:wikidata" editable="1"/>
+    <field name="brewery" editable="1"/>
+    <field name="building" editable="1"/>
+    <field name="building:levels" editable="1"/>
+    <field name="building:material" editable="1"/>
+    <field name="bus" editable="1"/>
+    <field name="camera:mount" editable="1"/>
+    <field name="camera:type" editable="1"/>
+    <field name="canoe" editable="1"/>
+    <field name="capacity" editable="1"/>
+    <field name="capital" editable="1"/>
+    <field name="check_date" editable="1"/>
+    <field name="communication:mobile_phone" editable="1"/>
+    <field name="contact:website" editable="1"/>
+    <field name="covered" editable="1"/>
+    <field name="crossing" editable="1"/>
+    <field name="crossing:barrier" editable="1"/>
+    <field name="crossing:bell" editable="1"/>
+    <field name="crossing:island" editable="1"/>
+    <field name="crossing:light" editable="1"/>
+    <field name="crossing:markings" editable="1"/>
+    <field name="crossing:saltire" editable="1"/>
+    <field name="crossing_ref" editable="1"/>
+    <field name="cuisine" editable="1"/>
+    <field name="delivery" editable="1"/>
+    <field name="denomination" editable="1"/>
+    <field name="denotation" editable="1"/>
+    <field name="description" editable="1"/>
+    <field name="description:de" editable="1"/>
+    <field name="description:wikidata" editable="1"/>
+    <field name="destination" editable="1"/>
+    <field name="destination:ref" editable="1"/>
+    <field name="diet:vegetarian" editable="1"/>
+    <field name="direction" editable="1"/>
+    <field name="drive_through" editable="1"/>
+    <field name="ele" editable="1"/>
+    <field name="ele:ft" editable="1"/>
+    <field name="email" editable="1"/>
+    <field name="emergency" editable="1"/>
+    <field name="fee" editable="1"/>
+    <field name="foot" editable="1"/>
+    <field name="ford" editable="1"/>
+    <field name="full_id" editable="1"/>
+    <field name="gnis:county_id" editable="1"/>
+    <field name="gnis:created" editable="1"/>
+    <field name="gnis:edited" editable="1"/>
+    <field name="gnis:feature_id" editable="1"/>
+    <field name="gnis:state_id" editable="1"/>
+    <field name="height" editable="1"/>
+    <field name="highchair" editable="1"/>
+    <field name="highway" editable="1"/>
+    <field name="hiking" editable="1"/>
+    <field name="indoor" editable="1"/>
+    <field name="indoor_seating" editable="1"/>
+    <field name="informal" editable="1"/>
+    <field name="information" editable="1"/>
+    <field name="internet_access" editable="1"/>
+    <field name="is_in" editable="1"/>
+    <field name="is_in:country" editable="1"/>
+    <field name="is_in:country_code" editable="1"/>
+    <field name="leaf_cycle" editable="1"/>
+    <field name="leaf_type" editable="1"/>
+    <field name="leisure" editable="1"/>
+    <field name="level" editable="1"/>
+    <field name="locked" editable="1"/>
+    <field name="man_made" editable="1"/>
+    <field name="map_size" editable="1"/>
+    <field name="map_type" editable="1"/>
+    <field name="material" editable="1"/>
+    <field name="maxspeed" editable="1"/>
+    <field name="monitoring:weather" editable="1"/>
+    <field name="motor_vehicle" editable="1"/>
+    <field name="name" editable="1"/>
+    <field name="name:en" editable="1"/>
+    <field name="name:ru" editable="1"/>
+    <field name="natural" editable="1"/>
+    <field name="noref" editable="1"/>
+    <field name="note:ref" editable="1"/>
+    <field name="office" editable="1"/>
+    <field name="official_name" editable="1"/>
+    <field name="old_name" editable="1"/>
+    <field name="old_ref" editable="1"/>
+    <field name="opening_hours" editable="1"/>
+    <field name="opening_hours:url" editable="1"/>
+    <field name="operator" editable="1"/>
+    <field name="operator:wikidata" editable="1"/>
+    <field name="operator:wikipedia" editable="1"/>
+    <field name="osm_id" editable="1"/>
+    <field name="osm_type" editable="1"/>
+    <field name="outdoor_seating" editable="1"/>
+    <field name="parking" editable="1"/>
+    <field name="payment:american_express" editable="1"/>
+    <field name="payment:discover_card" editable="1"/>
+    <field name="payment:mastercard" editable="1"/>
+    <field name="payment:visa" editable="1"/>
+    <field name="phone" editable="1"/>
+    <field name="place" editable="1"/>
+    <field name="population" editable="1"/>
+    <field name="population:date" editable="1"/>
+    <field name="power" editable="1"/>
+    <field name="product" editable="1"/>
+    <field name="public_transport" editable="1"/>
+    <field name="railway" editable="1"/>
+    <field name="ref" editable="1"/>
+    <field name="ref:US:NID" editable="1"/>
+    <field name="ref:right" editable="1"/>
+    <field name="religion" editable="1"/>
+    <field name="reservation" editable="1"/>
+    <field name="roof:levels" editable="1"/>
+    <field name="roof:shape" editable="1"/>
+    <field name="service:bicycle:stand" editable="1"/>
+    <field name="service:bicycle:tools" editable="1"/>
+    <field name="shelter_type" editable="1"/>
+    <field name="shop" editable="1"/>
+    <field name="short_name" editable="1"/>
+    <field name="side" editable="1"/>
+    <field name="smoking" editable="1"/>
+    <field name="source:name" editable="1"/>
+    <field name="source:population" editable="1"/>
+    <field name="sport" editable="1"/>
+    <field name="stop" editable="1"/>
+    <field name="surveillance" editable="1"/>
+    <field name="surveillance:type" editable="1"/>
+    <field name="tactile_paving" editable="1"/>
+    <field name="takeaway" editable="1"/>
+    <field name="toilets" editable="1"/>
+    <field name="toilets:wheelchair" editable="1"/>
+    <field name="tourism" editable="1"/>
+    <field name="tower:construction" editable="1"/>
+    <field name="tower:type" editable="1"/>
+    <field name="traffic_sign" editable="1"/>
+    <field name="traffic_sign:forward" editable="1"/>
+    <field name="traffic_signals" editable="1"/>
+    <field name="traffic_signals:direction" editable="1"/>
+    <field name="train" editable="1"/>
+    <field name="vehicle" editable="1"/>
+    <field name="waste" editable="1"/>
+    <field name="waterway" editable="1"/>
+    <field name="website" editable="1"/>
+    <field name="wheelchair" editable="1"/>
+    <field name="wikidata" editable="1"/>
+    <field name="wikipedia" editable="1"/>
   </editable>
   <labelOnTop>
     <field name="access" labelOnTop="0"/>
     <field name="addr:city" labelOnTop="0"/>
+    <field name="addr:country" labelOnTop="0"/>
     <field name="addr:floor" labelOnTop="0"/>
     <field name="addr:housenumber" labelOnTop="0"/>
+    <field name="addr:postcode" labelOnTop="0"/>
     <field name="addr:state" labelOnTop="0"/>
     <field name="addr:street" labelOnTop="0"/>
+    <field name="addr:unit" labelOnTop="0"/>
     <field name="aerialway" labelOnTop="0"/>
     <field name="aerialway:access" labelOnTop="0"/>
+    <field name="aeroway" labelOnTop="0"/>
     <field name="air_conditioning" labelOnTop="0"/>
+    <field name="alt_name" labelOnTop="0"/>
     <field name="amenity" labelOnTop="0"/>
+    <field name="backcountry" labelOnTop="0"/>
+    <field name="backrest" labelOnTop="0"/>
     <field name="bar" labelOnTop="0"/>
     <field name="barrier" labelOnTop="0"/>
     <field name="bicycle_parking" labelOnTop="0"/>
+    <field name="board_type" labelOnTop="0"/>
+    <field name="branch" labelOnTop="0"/>
     <field name="brand" labelOnTop="0"/>
     <field name="brand:wikidata" labelOnTop="0"/>
     <field name="brewery" labelOnTop="0"/>
@@ -1876,13 +1726,21 @@ def my_form_open(dialog, layer, feature):
     <field name="bus" labelOnTop="0"/>
     <field name="camera:mount" labelOnTop="0"/>
     <field name="camera:type" labelOnTop="0"/>
+    <field name="canoe" labelOnTop="0"/>
     <field name="capacity" labelOnTop="0"/>
+    <field name="capital" labelOnTop="0"/>
     <field name="check_date" labelOnTop="0"/>
+    <field name="communication:mobile_phone" labelOnTop="0"/>
+    <field name="contact:website" labelOnTop="0"/>
     <field name="covered" labelOnTop="0"/>
     <field name="crossing" labelOnTop="0"/>
     <field name="crossing:barrier" labelOnTop="0"/>
+    <field name="crossing:bell" labelOnTop="0"/>
     <field name="crossing:island" labelOnTop="0"/>
+    <field name="crossing:light" labelOnTop="0"/>
     <field name="crossing:markings" labelOnTop="0"/>
+    <field name="crossing:saltire" labelOnTop="0"/>
+    <field name="crossing_ref" labelOnTop="0"/>
     <field name="cuisine" labelOnTop="0"/>
     <field name="delivery" labelOnTop="0"/>
     <field name="denomination" labelOnTop="0"/>
@@ -1890,38 +1748,63 @@ def my_form_open(dialog, layer, feature):
     <field name="description" labelOnTop="0"/>
     <field name="description:de" labelOnTop="0"/>
     <field name="description:wikidata" labelOnTop="0"/>
+    <field name="destination" labelOnTop="0"/>
+    <field name="destination:ref" labelOnTop="0"/>
     <field name="diet:vegetarian" labelOnTop="0"/>
     <field name="direction" labelOnTop="0"/>
     <field name="drive_through" labelOnTop="0"/>
     <field name="ele" labelOnTop="0"/>
     <field name="ele:ft" labelOnTop="0"/>
+    <field name="email" labelOnTop="0"/>
+    <field name="emergency" labelOnTop="0"/>
     <field name="fee" labelOnTop="0"/>
     <field name="foot" labelOnTop="0"/>
+    <field name="ford" labelOnTop="0"/>
     <field name="full_id" labelOnTop="0"/>
     <field name="gnis:county_id" labelOnTop="0"/>
     <field name="gnis:created" labelOnTop="0"/>
     <field name="gnis:edited" labelOnTop="0"/>
     <field name="gnis:feature_id" labelOnTop="0"/>
     <field name="gnis:state_id" labelOnTop="0"/>
+    <field name="height" labelOnTop="0"/>
     <field name="highchair" labelOnTop="0"/>
     <field name="highway" labelOnTop="0"/>
+    <field name="hiking" labelOnTop="0"/>
     <field name="indoor" labelOnTop="0"/>
     <field name="indoor_seating" labelOnTop="0"/>
+    <field name="informal" labelOnTop="0"/>
     <field name="information" labelOnTop="0"/>
     <field name="internet_access" labelOnTop="0"/>
+    <field name="is_in" labelOnTop="0"/>
+    <field name="is_in:country" labelOnTop="0"/>
+    <field name="is_in:country_code" labelOnTop="0"/>
     <field name="leaf_cycle" labelOnTop="0"/>
     <field name="leaf_type" labelOnTop="0"/>
     <field name="leisure" labelOnTop="0"/>
     <field name="level" labelOnTop="0"/>
     <field name="locked" labelOnTop="0"/>
     <field name="man_made" labelOnTop="0"/>
+    <field name="map_size" labelOnTop="0"/>
+    <field name="map_type" labelOnTop="0"/>
     <field name="material" labelOnTop="0"/>
+    <field name="maxspeed" labelOnTop="0"/>
+    <field name="monitoring:weather" labelOnTop="0"/>
     <field name="motor_vehicle" labelOnTop="0"/>
     <field name="name" labelOnTop="0"/>
+    <field name="name:en" labelOnTop="0"/>
+    <field name="name:ru" labelOnTop="0"/>
     <field name="natural" labelOnTop="0"/>
+    <field name="noref" labelOnTop="0"/>
+    <field name="note:ref" labelOnTop="0"/>
+    <field name="office" labelOnTop="0"/>
     <field name="official_name" labelOnTop="0"/>
+    <field name="old_name" labelOnTop="0"/>
+    <field name="old_ref" labelOnTop="0"/>
     <field name="opening_hours" labelOnTop="0"/>
+    <field name="opening_hours:url" labelOnTop="0"/>
     <field name="operator" labelOnTop="0"/>
+    <field name="operator:wikidata" labelOnTop="0"/>
+    <field name="operator:wikipedia" labelOnTop="0"/>
     <field name="osm_id" labelOnTop="0"/>
     <field name="osm_type" labelOnTop="0"/>
     <field name="outdoor_seating" labelOnTop="0"/>
@@ -1931,9 +1814,16 @@ def my_form_open(dialog, layer, feature):
     <field name="payment:mastercard" labelOnTop="0"/>
     <field name="payment:visa" labelOnTop="0"/>
     <field name="phone" labelOnTop="0"/>
+    <field name="place" labelOnTop="0"/>
+    <field name="population" labelOnTop="0"/>
+    <field name="population:date" labelOnTop="0"/>
+    <field name="power" labelOnTop="0"/>
+    <field name="product" labelOnTop="0"/>
     <field name="public_transport" labelOnTop="0"/>
     <field name="railway" labelOnTop="0"/>
     <field name="ref" labelOnTop="0"/>
+    <field name="ref:US:NID" labelOnTop="0"/>
+    <field name="ref:right" labelOnTop="0"/>
     <field name="religion" labelOnTop="0"/>
     <field name="reservation" labelOnTop="0"/>
     <field name="roof:levels" labelOnTop="0"/>
@@ -1942,132 +1832,205 @@ def my_form_open(dialog, layer, feature):
     <field name="service:bicycle:tools" labelOnTop="0"/>
     <field name="shelter_type" labelOnTop="0"/>
     <field name="shop" labelOnTop="0"/>
+    <field name="short_name" labelOnTop="0"/>
     <field name="side" labelOnTop="0"/>
     <field name="smoking" labelOnTop="0"/>
+    <field name="source:name" labelOnTop="0"/>
+    <field name="source:population" labelOnTop="0"/>
+    <field name="sport" labelOnTop="0"/>
     <field name="stop" labelOnTop="0"/>
     <field name="surveillance" labelOnTop="0"/>
     <field name="surveillance:type" labelOnTop="0"/>
+    <field name="tactile_paving" labelOnTop="0"/>
     <field name="takeaway" labelOnTop="0"/>
     <field name="toilets" labelOnTop="0"/>
     <field name="toilets:wheelchair" labelOnTop="0"/>
     <field name="tourism" labelOnTop="0"/>
+    <field name="tower:construction" labelOnTop="0"/>
+    <field name="tower:type" labelOnTop="0"/>
+    <field name="traffic_sign" labelOnTop="0"/>
     <field name="traffic_sign:forward" labelOnTop="0"/>
+    <field name="traffic_signals" labelOnTop="0"/>
+    <field name="traffic_signals:direction" labelOnTop="0"/>
     <field name="train" labelOnTop="0"/>
+    <field name="vehicle" labelOnTop="0"/>
     <field name="waste" labelOnTop="0"/>
+    <field name="waterway" labelOnTop="0"/>
     <field name="website" labelOnTop="0"/>
     <field name="wheelchair" labelOnTop="0"/>
     <field name="wikidata" labelOnTop="0"/>
     <field name="wikipedia" labelOnTop="0"/>
   </labelOnTop>
   <reuseLastValue>
-    <field reuseLastValue="0" name="access"/>
-    <field reuseLastValue="0" name="addr:city"/>
-    <field reuseLastValue="0" name="addr:floor"/>
-    <field reuseLastValue="0" name="addr:housenumber"/>
-    <field reuseLastValue="0" name="addr:state"/>
-    <field reuseLastValue="0" name="addr:street"/>
-    <field reuseLastValue="0" name="aerialway"/>
-    <field reuseLastValue="0" name="aerialway:access"/>
-    <field reuseLastValue="0" name="air_conditioning"/>
-    <field reuseLastValue="0" name="amenity"/>
-    <field reuseLastValue="0" name="bar"/>
-    <field reuseLastValue="0" name="barrier"/>
-    <field reuseLastValue="0" name="bicycle_parking"/>
-    <field reuseLastValue="0" name="brand"/>
-    <field reuseLastValue="0" name="brand:wikidata"/>
-    <field reuseLastValue="0" name="brewery"/>
-    <field reuseLastValue="0" name="building"/>
-    <field reuseLastValue="0" name="building:levels"/>
-    <field reuseLastValue="0" name="building:material"/>
-    <field reuseLastValue="0" name="bus"/>
-    <field reuseLastValue="0" name="camera:mount"/>
-    <field reuseLastValue="0" name="camera:type"/>
-    <field reuseLastValue="0" name="capacity"/>
-    <field reuseLastValue="0" name="check_date"/>
-    <field reuseLastValue="0" name="covered"/>
-    <field reuseLastValue="0" name="crossing"/>
-    <field reuseLastValue="0" name="crossing:barrier"/>
-    <field reuseLastValue="0" name="crossing:island"/>
-    <field reuseLastValue="0" name="crossing:markings"/>
-    <field reuseLastValue="0" name="cuisine"/>
-    <field reuseLastValue="0" name="delivery"/>
-    <field reuseLastValue="0" name="denomination"/>
-    <field reuseLastValue="0" name="denotation"/>
-    <field reuseLastValue="0" name="description"/>
-    <field reuseLastValue="0" name="description:de"/>
-    <field reuseLastValue="0" name="description:wikidata"/>
-    <field reuseLastValue="0" name="diet:vegetarian"/>
-    <field reuseLastValue="0" name="direction"/>
-    <field reuseLastValue="0" name="drive_through"/>
-    <field reuseLastValue="0" name="ele"/>
-    <field reuseLastValue="0" name="ele:ft"/>
-    <field reuseLastValue="0" name="fee"/>
-    <field reuseLastValue="0" name="foot"/>
-    <field reuseLastValue="0" name="full_id"/>
-    <field reuseLastValue="0" name="gnis:county_id"/>
-    <field reuseLastValue="0" name="gnis:created"/>
-    <field reuseLastValue="0" name="gnis:edited"/>
-    <field reuseLastValue="0" name="gnis:feature_id"/>
-    <field reuseLastValue="0" name="gnis:state_id"/>
-    <field reuseLastValue="0" name="highchair"/>
-    <field reuseLastValue="0" name="highway"/>
-    <field reuseLastValue="0" name="indoor"/>
-    <field reuseLastValue="0" name="indoor_seating"/>
-    <field reuseLastValue="0" name="information"/>
-    <field reuseLastValue="0" name="internet_access"/>
-    <field reuseLastValue="0" name="leaf_cycle"/>
-    <field reuseLastValue="0" name="leaf_type"/>
-    <field reuseLastValue="0" name="leisure"/>
-    <field reuseLastValue="0" name="level"/>
-    <field reuseLastValue="0" name="locked"/>
-    <field reuseLastValue="0" name="man_made"/>
-    <field reuseLastValue="0" name="material"/>
-    <field reuseLastValue="0" name="motor_vehicle"/>
-    <field reuseLastValue="0" name="name"/>
-    <field reuseLastValue="0" name="natural"/>
-    <field reuseLastValue="0" name="official_name"/>
-    <field reuseLastValue="0" name="opening_hours"/>
-    <field reuseLastValue="0" name="operator"/>
-    <field reuseLastValue="0" name="osm_id"/>
-    <field reuseLastValue="0" name="osm_type"/>
-    <field reuseLastValue="0" name="outdoor_seating"/>
-    <field reuseLastValue="0" name="parking"/>
-    <field reuseLastValue="0" name="payment:american_express"/>
-    <field reuseLastValue="0" name="payment:discover_card"/>
-    <field reuseLastValue="0" name="payment:mastercard"/>
-    <field reuseLastValue="0" name="payment:visa"/>
-    <field reuseLastValue="0" name="phone"/>
-    <field reuseLastValue="0" name="public_transport"/>
-    <field reuseLastValue="0" name="railway"/>
-    <field reuseLastValue="0" name="ref"/>
-    <field reuseLastValue="0" name="religion"/>
-    <field reuseLastValue="0" name="reservation"/>
-    <field reuseLastValue="0" name="roof:levels"/>
-    <field reuseLastValue="0" name="roof:shape"/>
-    <field reuseLastValue="0" name="service:bicycle:stand"/>
-    <field reuseLastValue="0" name="service:bicycle:tools"/>
-    <field reuseLastValue="0" name="shelter_type"/>
-    <field reuseLastValue="0" name="shop"/>
-    <field reuseLastValue="0" name="side"/>
-    <field reuseLastValue="0" name="smoking"/>
-    <field reuseLastValue="0" name="stop"/>
-    <field reuseLastValue="0" name="surveillance"/>
-    <field reuseLastValue="0" name="surveillance:type"/>
-    <field reuseLastValue="0" name="takeaway"/>
-    <field reuseLastValue="0" name="toilets"/>
-    <field reuseLastValue="0" name="toilets:wheelchair"/>
-    <field reuseLastValue="0" name="tourism"/>
-    <field reuseLastValue="0" name="traffic_sign:forward"/>
-    <field reuseLastValue="0" name="train"/>
-    <field reuseLastValue="0" name="waste"/>
-    <field reuseLastValue="0" name="website"/>
-    <field reuseLastValue="0" name="wheelchair"/>
-    <field reuseLastValue="0" name="wikidata"/>
-    <field reuseLastValue="0" name="wikipedia"/>
+    <field name="access" reuseLastValue="0"/>
+    <field name="addr:city" reuseLastValue="0"/>
+    <field name="addr:country" reuseLastValue="0"/>
+    <field name="addr:floor" reuseLastValue="0"/>
+    <field name="addr:housenumber" reuseLastValue="0"/>
+    <field name="addr:postcode" reuseLastValue="0"/>
+    <field name="addr:state" reuseLastValue="0"/>
+    <field name="addr:street" reuseLastValue="0"/>
+    <field name="addr:unit" reuseLastValue="0"/>
+    <field name="aerialway" reuseLastValue="0"/>
+    <field name="aerialway:access" reuseLastValue="0"/>
+    <field name="aeroway" reuseLastValue="0"/>
+    <field name="air_conditioning" reuseLastValue="0"/>
+    <field name="alt_name" reuseLastValue="0"/>
+    <field name="amenity" reuseLastValue="0"/>
+    <field name="backcountry" reuseLastValue="0"/>
+    <field name="backrest" reuseLastValue="0"/>
+    <field name="bar" reuseLastValue="0"/>
+    <field name="barrier" reuseLastValue="0"/>
+    <field name="bicycle_parking" reuseLastValue="0"/>
+    <field name="board_type" reuseLastValue="0"/>
+    <field name="branch" reuseLastValue="0"/>
+    <field name="brand" reuseLastValue="0"/>
+    <field name="brand:wikidata" reuseLastValue="0"/>
+    <field name="brewery" reuseLastValue="0"/>
+    <field name="building" reuseLastValue="0"/>
+    <field name="building:levels" reuseLastValue="0"/>
+    <field name="building:material" reuseLastValue="0"/>
+    <field name="bus" reuseLastValue="0"/>
+    <field name="camera:mount" reuseLastValue="0"/>
+    <field name="camera:type" reuseLastValue="0"/>
+    <field name="canoe" reuseLastValue="0"/>
+    <field name="capacity" reuseLastValue="0"/>
+    <field name="capital" reuseLastValue="0"/>
+    <field name="check_date" reuseLastValue="0"/>
+    <field name="communication:mobile_phone" reuseLastValue="0"/>
+    <field name="contact:website" reuseLastValue="0"/>
+    <field name="covered" reuseLastValue="0"/>
+    <field name="crossing" reuseLastValue="0"/>
+    <field name="crossing:barrier" reuseLastValue="0"/>
+    <field name="crossing:bell" reuseLastValue="0"/>
+    <field name="crossing:island" reuseLastValue="0"/>
+    <field name="crossing:light" reuseLastValue="0"/>
+    <field name="crossing:markings" reuseLastValue="0"/>
+    <field name="crossing:saltire" reuseLastValue="0"/>
+    <field name="crossing_ref" reuseLastValue="0"/>
+    <field name="cuisine" reuseLastValue="0"/>
+    <field name="delivery" reuseLastValue="0"/>
+    <field name="denomination" reuseLastValue="0"/>
+    <field name="denotation" reuseLastValue="0"/>
+    <field name="description" reuseLastValue="0"/>
+    <field name="description:de" reuseLastValue="0"/>
+    <field name="description:wikidata" reuseLastValue="0"/>
+    <field name="destination" reuseLastValue="0"/>
+    <field name="destination:ref" reuseLastValue="0"/>
+    <field name="diet:vegetarian" reuseLastValue="0"/>
+    <field name="direction" reuseLastValue="0"/>
+    <field name="drive_through" reuseLastValue="0"/>
+    <field name="ele" reuseLastValue="0"/>
+    <field name="ele:ft" reuseLastValue="0"/>
+    <field name="email" reuseLastValue="0"/>
+    <field name="emergency" reuseLastValue="0"/>
+    <field name="fee" reuseLastValue="0"/>
+    <field name="foot" reuseLastValue="0"/>
+    <field name="ford" reuseLastValue="0"/>
+    <field name="full_id" reuseLastValue="0"/>
+    <field name="gnis:county_id" reuseLastValue="0"/>
+    <field name="gnis:created" reuseLastValue="0"/>
+    <field name="gnis:edited" reuseLastValue="0"/>
+    <field name="gnis:feature_id" reuseLastValue="0"/>
+    <field name="gnis:state_id" reuseLastValue="0"/>
+    <field name="height" reuseLastValue="0"/>
+    <field name="highchair" reuseLastValue="0"/>
+    <field name="highway" reuseLastValue="0"/>
+    <field name="hiking" reuseLastValue="0"/>
+    <field name="indoor" reuseLastValue="0"/>
+    <field name="indoor_seating" reuseLastValue="0"/>
+    <field name="informal" reuseLastValue="0"/>
+    <field name="information" reuseLastValue="0"/>
+    <field name="internet_access" reuseLastValue="0"/>
+    <field name="is_in" reuseLastValue="0"/>
+    <field name="is_in:country" reuseLastValue="0"/>
+    <field name="is_in:country_code" reuseLastValue="0"/>
+    <field name="leaf_cycle" reuseLastValue="0"/>
+    <field name="leaf_type" reuseLastValue="0"/>
+    <field name="leisure" reuseLastValue="0"/>
+    <field name="level" reuseLastValue="0"/>
+    <field name="locked" reuseLastValue="0"/>
+    <field name="man_made" reuseLastValue="0"/>
+    <field name="map_size" reuseLastValue="0"/>
+    <field name="map_type" reuseLastValue="0"/>
+    <field name="material" reuseLastValue="0"/>
+    <field name="maxspeed" reuseLastValue="0"/>
+    <field name="monitoring:weather" reuseLastValue="0"/>
+    <field name="motor_vehicle" reuseLastValue="0"/>
+    <field name="name" reuseLastValue="0"/>
+    <field name="name:en" reuseLastValue="0"/>
+    <field name="name:ru" reuseLastValue="0"/>
+    <field name="natural" reuseLastValue="0"/>
+    <field name="noref" reuseLastValue="0"/>
+    <field name="note:ref" reuseLastValue="0"/>
+    <field name="office" reuseLastValue="0"/>
+    <field name="official_name" reuseLastValue="0"/>
+    <field name="old_name" reuseLastValue="0"/>
+    <field name="old_ref" reuseLastValue="0"/>
+    <field name="opening_hours" reuseLastValue="0"/>
+    <field name="opening_hours:url" reuseLastValue="0"/>
+    <field name="operator" reuseLastValue="0"/>
+    <field name="operator:wikidata" reuseLastValue="0"/>
+    <field name="operator:wikipedia" reuseLastValue="0"/>
+    <field name="osm_id" reuseLastValue="0"/>
+    <field name="osm_type" reuseLastValue="0"/>
+    <field name="outdoor_seating" reuseLastValue="0"/>
+    <field name="parking" reuseLastValue="0"/>
+    <field name="payment:american_express" reuseLastValue="0"/>
+    <field name="payment:discover_card" reuseLastValue="0"/>
+    <field name="payment:mastercard" reuseLastValue="0"/>
+    <field name="payment:visa" reuseLastValue="0"/>
+    <field name="phone" reuseLastValue="0"/>
+    <field name="place" reuseLastValue="0"/>
+    <field name="population" reuseLastValue="0"/>
+    <field name="population:date" reuseLastValue="0"/>
+    <field name="power" reuseLastValue="0"/>
+    <field name="product" reuseLastValue="0"/>
+    <field name="public_transport" reuseLastValue="0"/>
+    <field name="railway" reuseLastValue="0"/>
+    <field name="ref" reuseLastValue="0"/>
+    <field name="ref:US:NID" reuseLastValue="0"/>
+    <field name="ref:right" reuseLastValue="0"/>
+    <field name="religion" reuseLastValue="0"/>
+    <field name="reservation" reuseLastValue="0"/>
+    <field name="roof:levels" reuseLastValue="0"/>
+    <field name="roof:shape" reuseLastValue="0"/>
+    <field name="service:bicycle:stand" reuseLastValue="0"/>
+    <field name="service:bicycle:tools" reuseLastValue="0"/>
+    <field name="shelter_type" reuseLastValue="0"/>
+    <field name="shop" reuseLastValue="0"/>
+    <field name="short_name" reuseLastValue="0"/>
+    <field name="side" reuseLastValue="0"/>
+    <field name="smoking" reuseLastValue="0"/>
+    <field name="source:name" reuseLastValue="0"/>
+    <field name="source:population" reuseLastValue="0"/>
+    <field name="sport" reuseLastValue="0"/>
+    <field name="stop" reuseLastValue="0"/>
+    <field name="surveillance" reuseLastValue="0"/>
+    <field name="surveillance:type" reuseLastValue="0"/>
+    <field name="tactile_paving" reuseLastValue="0"/>
+    <field name="takeaway" reuseLastValue="0"/>
+    <field name="toilets" reuseLastValue="0"/>
+    <field name="toilets:wheelchair" reuseLastValue="0"/>
+    <field name="tourism" reuseLastValue="0"/>
+    <field name="tower:construction" reuseLastValue="0"/>
+    <field name="tower:type" reuseLastValue="0"/>
+    <field name="traffic_sign" reuseLastValue="0"/>
+    <field name="traffic_sign:forward" reuseLastValue="0"/>
+    <field name="traffic_signals" reuseLastValue="0"/>
+    <field name="traffic_signals:direction" reuseLastValue="0"/>
+    <field name="train" reuseLastValue="0"/>
+    <field name="vehicle" reuseLastValue="0"/>
+    <field name="waste" reuseLastValue="0"/>
+    <field name="waterway" reuseLastValue="0"/>
+    <field name="website" reuseLastValue="0"/>
+    <field name="wheelchair" reuseLastValue="0"/>
+    <field name="wikidata" reuseLastValue="0"/>
+    <field name="wikipedia" reuseLastValue="0"/>
   </reuseLastValue>
   <dataDefinedFieldProperties/>
   <widgets/>
   <previewExpression>"name"</previewExpression>
-  <mapTip></mapTip>
+  <mapTip enabled="1"></mapTip>
   <layerGeometryType>0</layerGeometryType>
 </qgis>
